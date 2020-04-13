@@ -45,6 +45,9 @@ Checkbox(
     onCheckedChange = { }
 )
 ```
+<p align="center">
+  <img src="/academy/material/media/checkbox.png">
+</p>
 
 ## Handling check changes
 
