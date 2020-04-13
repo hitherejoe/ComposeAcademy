@@ -1,6 +1,6 @@
 ---
 # Page settings
-layout: homepage
+layout: default
 keywords:
 
 # Hero section
