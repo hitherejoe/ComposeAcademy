@@ -10,11 +10,11 @@ description: Components from the Material package
 # Grid navigation
 grid_navigation:
     - title: Checkbox
-      excerpt: Components from the compose Material package
+      excerpt: Used for a toggleable state in the form of a check mark 
       cta: View
       url: '/academy/material/checkbox'
-    - title: TriStateCheckbox
-      excerpt: Components from the compose Text package
+    - title: Snackbar
+      excerpt: Used to display short, non-blocking & dismissable messages on screen
       cta: View
       url: '/academy/material/tristatecheckbox'
 ---
