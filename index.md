@@ -22,7 +22,11 @@ author:
     external_url: true
 
 # Grid navigation
-material:
+grid_navigation:
+    - title: Material
+      excerpt: Components from the compose Material package
+      cta: View
+      url: '#'
     - title: Material
       excerpt: Components from the compose Material package
       cta: View
