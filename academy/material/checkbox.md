@@ -30,8 +30,10 @@ fun Checkbox(
 
 There are five available properties that we can pass to the Checkbox function:
 
-* **checked** – whether or not the checkbox is currently checked. This is required
-* **onCheckedChange** – a callback that will receive change events for when the checkbox selected state changes. Whilst this is required, null can be passed as a value
+* **checked** – whether or not the checkbox is currently checked
+    * required
+* **onCheckedChange** – a callback that will receive change events for when the checkbox selected state changes
+    * required
 * **modifier** – the modifier(s) to be applied to the checkbox
 * **color** – the color to be used for the checkbox. If not provided, then the secondary color from the application theme will be applied
 
