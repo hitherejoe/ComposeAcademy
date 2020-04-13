@@ -39,8 +39,6 @@ There are five available properties that we can pass to the Checkbox function:
 
 ## Simple checkbox
 
-With the above in mind we can created a simple checkbox by providing the two required values for checked and onCheckedChange.
-
 ```kotlin
 Checkbox(
     checked = false,
@@ -55,8 +53,6 @@ Checkbox(
 
 
 ## Styled checkbox
-
-When providing a value for the **color** property, we can override the use our the secondary color from our application theme for the checkbox color.
 
 ```kotlin
 Checkbox(
