@@ -12,7 +12,7 @@ grid_navigation:
     - title: Checkbox
       excerpt: Components from the compose Material package
       cta: View
-      url: '#'
+      url: '/checkbox'
     - title: TriStateCheckbox
       excerpt: Components from the compose Text package
       cta: View
