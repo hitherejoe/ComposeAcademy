@@ -2,7 +2,7 @@
 # Theme settings
 doks:
     baseurl:
-    color_theme: green # Available themes: blue (default), green, purple, red and yellow
+    color_theme: # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
             text: Compose Academy
