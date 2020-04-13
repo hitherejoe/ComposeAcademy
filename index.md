@@ -4,8 +4,8 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Project name
-description: Project description
+title: Compose Academy
+description: Documentation for the components of Jetpack Compose
 buttons:
     - content: Button
       url: '#'
@@ -23,9 +23,9 @@ author:
     description: Author description
 
 # Grid navigation
-grid_navigation:
-    - title: Grid navigation
-      excerpt: Section description
-      cta: Read more
+material:
+    - title: Material
+      excerpt: Components from the compose Material package
+      cta: View
       url: '#'
 ---
