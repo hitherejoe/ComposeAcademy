@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Compose Academy
-description: Samples and guides for Jetpack Compose
+description: Samples and guides for Jetpack Compose on the Android platform
 buttons:
     - content: What is Jetpack Compose?
       url: https://developer.android.com/jetpack/compose
@@ -20,7 +20,7 @@ author:
     title: Get the book
     title_url: 'https://joebirch.co/exploring-jetpack-compose/'
     external_url: true
-    description: Get the book
+    description: Learn even more about Jetpack Compose!
 
 # Grid navigation
 grid_navigation:
