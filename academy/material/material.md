@@ -16,5 +16,5 @@ grid_navigation:
     - title: Snackbar
       excerpt: Used to display short, non-blocking & dismissable messages on screen
       cta: View
-      url: '/academy/material/tristatecheckbox'
+      url: '/academy/material/snackbar'
 ---
