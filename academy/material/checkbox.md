@@ -22,7 +22,9 @@ fun Checkbox(
 )
 ```
 
-# Simple checkbox
+# Declaring a Checkbox
+
+## Simple checkbox
 
 ```kotlin
 Checkbox(
@@ -31,10 +33,10 @@ Checkbox(
 )
 ```
 
-# Handling check changes
+## Handling check changes
 
 
-# Styled checkbox
+## Styled checkbox
 
 ```kotlin
 Checkbox(
@@ -45,7 +47,7 @@ Checkbox(
 ```
 
 
-# Enabling / Disabling the checkbox
+## Enabling / Disabling the checkbox
 
 ```kotlin
 @Composable
@@ -58,4 +60,4 @@ fun CheckboxComponent(formState: FormState) {
 }
 ```
 
-# Checkbox with label
+## Checkbox with label
