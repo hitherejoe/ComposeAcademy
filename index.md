@@ -17,10 +17,9 @@ buttons:
 
 # Author box
 author:
-    title: About Author
-    title_url: '#'
+    title: Get the book
+    title_url: 'https://joebirch.co/exploring-jetpack-compose/'
     external_url: true
-    description: Author description
 
 # Grid navigation
 material:
