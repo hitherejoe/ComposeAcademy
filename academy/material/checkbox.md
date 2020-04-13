@@ -63,7 +63,9 @@ Checkbox(
     color = Color.Red
 )
 ```
-
+<p align="center">
+  <img src="/academy/material/media/colored_checkbox.png">
+</p>
 
 ## Enabling / Disabling the checkbox
 
