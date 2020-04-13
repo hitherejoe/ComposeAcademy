@@ -27,7 +27,7 @@ grid_navigation:
     - title: Material
       excerpt: Components from the compose Material package
       cta: View
-      url: '/academy/material/material.md'
+      url: '/academy/material/material'
     - title: Text
       excerpt: Components from the compose Text package
       cta: View
