@@ -7,7 +7,7 @@ title: Checkbox
 description: Checkboxes are crucial components when it comes to common areas of our applications. Be it settings screens, forms or any kind of content that needs to allow the user to toggle the checked state of the component – the Checkbox is essential in these scenarios. When it comes to this component, the Jetpack Compose provides a minimalistic approach to implementing this component within our UI.
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 ---
 
