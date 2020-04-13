@@ -5,14 +5,11 @@ keywords:
 
 # Hero section
 title: Compose Academy
-description: Documentation for the components of Jetpack Compose
+description: Samples and guides for Jetpack Compose
 buttons:
-    - content: Button
-      url: '#'
-      external_url: false
     - icon: github
-      content: Button with icon
-      url: '#'
+      content: Contribute
+      url: 'https://github.com/hitherejoe/ComposeAcademy'
       external_url: true
 
 # Author box
