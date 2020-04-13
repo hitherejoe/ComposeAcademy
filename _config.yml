@@ -19,20 +19,12 @@ doks:
             logo:
                 text: Project name
                 image:
-            copyright: Copyright &copy; 2017. - Project name <br>All rights reserved.
+            copyright: Copyright &copy; 2020. - Compose Academy <br>All rights reserved.
         social_list:
-            - network_name: facebook
-              profile_url: '#'
             - network_name: twitter
-              profile_url: '#'
-            - network_name: instagram
-              profile_url: '#'
-            - network_name: youtube
-              profile_url: '#'
+              profile_url: 'https://twitter.com/hitherejoe'
     google_analytics:
-        tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
-    comments:
-        disqus_forum_shortname: # Add your disqus forum shortname to activate comments
+        tracking_code: UA-39804005-3
 
 # SASS settings
 sass:
