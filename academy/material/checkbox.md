@@ -24,16 +24,38 @@ fun Checkbox(
 
 # Simple checkbox
 
+```kotlin
+Checkbox(
+    checked = false,
+    onCheckedChange = { }
+)
+```
 
 # Handling check changes
 
 
 # Styled checkbox
 
+```kotlin
+Checkbox(
+    checked = false,
+    onCheckedChange = { },
+    color = Color.Red
+)
+```
 
 
 # Enabling / Disabling the checkbox
 
-
+```kotlin
+@Composable
+fun CheckboxComponent(formState: FormState) {
+    Checkbox(
+        checked = formState.optionChecked,
+        onCheckedChange = { },
+        enabled = formState.enabled
+    )
+}
+```
 
 # Checkbox with label
