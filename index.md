@@ -7,6 +7,9 @@ keywords:
 title: Compose Academy
 description: Samples and guides for Jetpack Compose
 buttons:
+    - content: What is Jetpack Compose?
+      url: https://developer.android.com/jetpack/compose
+      external_url: true
     - icon: github
       content: Contribute
       url: 'https://github.com/hitherejoe/ComposeAcademy'
@@ -17,6 +20,7 @@ author:
     title: Get the book
     title_url: 'https://joebirch.co/exploring-jetpack-compose/'
     external_url: true
+    description: Get the book
 
 # Grid navigation
 grid_navigation:
