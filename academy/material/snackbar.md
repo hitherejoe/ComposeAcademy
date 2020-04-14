@@ -27,7 +27,7 @@ fun Snackbar(
 
 # Declaring a Snackbar
 
-There are four available properties that we can pass to the Checkbox function:
+There are four available properties that we can pass to the Snackbar function:
 
 * **text** – the text to be displayed within the snackbar
     * required
