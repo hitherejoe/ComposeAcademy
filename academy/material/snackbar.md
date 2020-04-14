@@ -7,7 +7,7 @@ title: Snackbar
 description: Snackbars provide us with a wya to show short, non-blocking alerts to the user. Usually displayed at the bottom of the screen, these components can also provide a single action for the user to take in the context of the given message.
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 ---
 
