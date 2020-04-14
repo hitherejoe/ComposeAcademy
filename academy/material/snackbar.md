@@ -43,7 +43,7 @@ Snackbar(
 )
 ```
 <p align="center">
-  <img src="">
+  <img src="/academy/material/media/snackbar.png">
 </p>
 
 ## Handling actions
@@ -68,6 +68,10 @@ Snackbar(
 )
 ```
 
+<p align="center">
+  <img src="/academy/material/media/snackbar_action.png">
+</p>
+
 ## Action on new line
 
 ```kotlin
@@ -90,3 +94,7 @@ Snackbar(
     actionOnNewLine = true
 )
 ```
+
+<p align="center">
+  <img src="/academy/material/media/snackbar_new_line.png">
+</p>
