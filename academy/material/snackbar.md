@@ -98,3 +98,21 @@ Snackbar(
 <p align="center">
   <img src="/academy/material/media/snackbar_new_line.png">
 </p>
+
+## Showing a snackbar within a user interface
+
+Awaiting implementation. This will be supported by the scaffold component, which is still marked as a TODO
+
+```kotlin
+@Model
+class ScaffoldState(
+    var drawerState: DrawerState = DrawerState.Closed,
+    var isDrawerGesturesEnabled: Boolean = true
+) {
+
+    // TODO: add showSnackbar() method here
+
+    internal var fabConfiguration: FabConfiguration? = null
+    internal var bottomBarSize: IntPxSize? = null
+}
+```
