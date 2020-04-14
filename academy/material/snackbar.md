@@ -27,7 +27,7 @@ fun Snackbar(
 
 # Declaring a Snackbar
 
-There are four available properties that we can pass to the Checkbox function:
+There are four available properties that we can pass to the Snackbar function:
 
 * **text** – the text to be displayed within the snackbar
     * required
@@ -43,7 +43,7 @@ Snackbar(
 )
 ```
 <p align="center">
-  <img src="">
+  <img src="/academy/material/media/snackbar.png">
 </p>
 
 ## Handling actions
@@ -68,6 +68,10 @@ Snackbar(
 )
 ```
 
+<p align="center">
+  <img src="/academy/material/media/snackbar_action.png">
+</p>
+
 ## Action on new line
 
 ```kotlin
@@ -89,4 +93,26 @@ Snackbar(
     },
     actionOnNewLine = true
 )
+```
+
+<p align="center">
+  <img src="/academy/material/media/snackbar_new_line.png">
+</p>
+
+## Showing a snackbar within a user interface
+
+Awaiting implementation. This will be supported by the scaffold component, which is still marked as a TODO
+
+```kotlin
+@Model
+class ScaffoldState(
+    var drawerState: DrawerState = DrawerState.Closed,
+    var isDrawerGesturesEnabled: Boolean = true
+) {
+
+    // TODO: add showSnackbar() method here
+
+    internal var fabConfiguration: FabConfiguration? = null
+    internal var bottomBarSize: IntPxSize? = null
+}
 ```
