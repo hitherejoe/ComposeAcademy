@@ -1,13 +1,16 @@
 ---
+
 # Page settings
 layout: default
 keywords:
 comments: false
+
+# Hero section
 title: Checkbox
 description: Checkboxes are crucial components when it comes to common areas of our applications. Be it settings screens, forms or any kind of content that needs to allow the user to toggle the checked state of the component – the Checkbox is essential in these scenarios. When it comes to this component, the Jetpack Compose provides a minimalistic approach to implementing this component within our UI.
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 ---
 
@@ -30,14 +33,14 @@ fun Checkbox(
 
 There are five available properties that we can pass to the Checkbox function:
 
-* **checked** – whether or not the checkbox is currently checked. This is required
-* **onCheckedChange** – a callback that will receive change events for when the checkbox selected state changes. Whilst this is required, null can be passed as a value
+* **checked** – whether or not the checkbox is currently checked
+    * required
+* **onCheckedChange** – a callback that will receive change events for when the checkbox selected state changes
+    * required
 * **modifier** – the modifier(s) to be applied to the checkbox
 * **color** – the color to be used for the checkbox. If not provided, then the secondary color from the application theme will be applied
 
 ## Simple checkbox
-
-With the above in mind we can created a simple checkbox by providing the two required values for checked and onCheckedChange.
 
 ```kotlin
 Checkbox(
@@ -45,13 +48,14 @@ Checkbox(
     onCheckedChange = { }
 )
 ```
+<p align="center">
+  <img src="/academy/material/media/checkbox.png">
+</p>
 
 ## Handling check changes
 
 
 ## Styled checkbox
-
-When providing a value for the **color** property, we can override the use our the secondary color from our application theme for the checkbox color.
 
 ```kotlin
 Checkbox(
@@ -60,7 +64,9 @@ Checkbox(
     color = Color.Red
 )
 ```
-
+<p align="center">
+  <img src="/academy/material/media/colored_checkbox.png">
+</p>
 
 ## Enabling / Disabling the checkbox
 
