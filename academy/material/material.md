@@ -2,6 +2,8 @@
 # Page settings
 layout: home
 keywords:
+comments: false
+title: Compose Academy
 
 # Hero section
 title: Material
