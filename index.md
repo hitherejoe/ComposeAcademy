@@ -31,39 +31,35 @@ grid_navigation:
     - title: Text
       excerpt: Components from the compose Text package
       cta: View
-      url: '#'
+      url: '/academy/text/text'
     - title: Core
       excerpt: Components from the compose Core package
       cta: View
-      url: '#'
+      url: '/academy/core/core'
     - title: Foundation
       excerpt: Components from the compose Foundation package
       cta: View
-      url: '#'
+      url: '/academy/foundation/foundation'
     - title: Framework
       excerpt: Components from the compose Framework package
       cta: View
-      url: '#'
+      url: '/academy/framework/framework'
     - title: Graphics
       excerpt: Components from the compose Graphics package
       cta: View
-      url: '#'
+      url: '/academy/graphics/graphics'
     - title: Layout
       excerpt: Components from the compose Layout package
       cta: View
-      url: '#'
-    - title: Material
-      excerpt: Components from the compose Material package
-      cta: View
-      url: '#'
+      url: '/academy/layout/layout'
     - title: Animation
       excerpt: Components from the compose Animation package
       cta: View
-      url: '#'
+      url: '/academy/animation/animation'
     - title: Unit
       excerpt: Components from the compose Unit package
       cta: View
-      url: '#'
+      url: '/academy/unit/unit'
     - title: Unit
       excerpt: Components from the compose Unit package
       cta: View
@@ -71,9 +67,9 @@ grid_navigation:
     - title: Tooling
       excerpt: Components related to Tooling
       cta: View
-      url: '#'
+      url: '/academy/tooling/tooling'
     - title: Testing
       excerpt: Components related to Testing
       cta: View
-      url: '#'
+      url: '/academy/testing/testing'
 ---
