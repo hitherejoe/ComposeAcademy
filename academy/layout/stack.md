@@ -45,6 +45,16 @@ Stack(modifier = Modifier.fillMaxSize()) {
         text = ("Top!"),
         modifier = Modifier.gravity(Alignment.TopCenter).padding(16.dp)
     )
+    
+    Text(
+        text = ("Left!"),
+        modifier = Modifier.gravity(Alignment.CenterStart).padding(16.dp)
+    )
+
+    Text(
+        text = ("Right!"),
+        modifier = Modifier.gravity(Alignment.CenterEnd).padding(16.dp)
+    )
 
     Text(
         text = ("Bottom!"),
@@ -52,6 +62,10 @@ Stack(modifier = Modifier.fillMaxSize()) {
     )
 }
 ```
+
+<p align="center">
+  <img src="/academy/layout/media/stack_children.png">
+</p>
 
 # Stack with overlapping children
 
@@ -66,6 +80,16 @@ Stack(modifier = Modifier.fillMaxSize()) {
         text = ("Top!"),
         modifier = Modifier.gravity(Alignment.TopCenter).padding(16.dp)
     )
+    
+    Text(
+        text = ("Left!"),
+        modifier = Modifier.gravity(Alignment.CenterStart).padding(16.dp)
+    )
+
+    Text(
+        text = ("Right!"),
+        modifier = Modifier.gravity(Alignment.CenterEnd).padding(16.dp)
+    )
 
     Text(
         text = ("Bottom!"),
@@ -73,3 +97,7 @@ Stack(modifier = Modifier.fillMaxSize()) {
     )
 }
 ```
+
+<p align="center">
+  <img src="/academy/layout/media/stack_overlap.png">
+</p>
