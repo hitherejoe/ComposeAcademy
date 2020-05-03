@@ -65,3 +65,30 @@ Surface(
   <img src="/academy/foundation/media/androidview.png">
 </p>
 
+## Embed custom views
+
+```kotlin
+Surface(
+    modifier = Modifier.padding(16.dp),
+    color = Color.White,
+    shape = RoundedCornerShape(CornerSize(4.dp))
+) {
+
+    Column(modifier = Modifier.padding(16.dp)) {
+        MyCustomView(context = ContextAmbient.current)
+    }
+}
+
+class MyCustomView @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null,
+    defStyleAttr: Int = 0
+) : AppCompatTextView(context, attrs, defStyleAttr) {
+
+    init {
+        layoutParams = ViewGroup.LayoutParams(MATCH_PARENT, WRAP_CONTENT)
+        text = "Hello there!"
+    }
+
+}
+```
