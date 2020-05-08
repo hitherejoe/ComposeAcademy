@@ -13,5 +13,9 @@ grid_navigation:
       excerpt: Inflate XML layouts as a composable
       cta: View
       url: '/academy/foundation/androidview'
+    - title: Border
+      excerpt: Create a border to outline views
+      cta: View
+      url: '/academy/foundation/border'
       
 ---
