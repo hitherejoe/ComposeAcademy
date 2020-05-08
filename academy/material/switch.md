@@ -1,4 +1,3 @@
-
 ---
 # Page settings
 layout: default
