@@ -12,7 +12,7 @@ grid_navigation:
     - title: Card
       excerpt: A surface area in the shape of a Card for housing content
       cta: View
-      url: '/academy/material/snackbar'
+      url: '/academy/material/card'
     - title: Checkbox
       excerpt: Used for a toggleable state in the form of a check mark 
       cta: View
@@ -24,7 +24,7 @@ grid_navigation:
     - title: Radio Button
       excerpt: Used for selectable options in a group of items
       cta: View
-      url: '/academy/material/snackbar'
+      url: '/academy/material/radiobutton'
     - title: Snackbar
       excerpt: Used to display short, non-blocking & dismissable messages on screen
       cta: View
