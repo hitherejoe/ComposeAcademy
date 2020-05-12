@@ -12,6 +12,6 @@ grid_navigation:
     - title: Single Value
       excerpt: Single Value animations
       cta: View
-      url: '/academy/foundation/singleValue'
+      url: '/academy/animation/singleValue'
       
 ---
