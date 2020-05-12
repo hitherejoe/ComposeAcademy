@@ -55,7 +55,7 @@ grid_navigation:
     - title: Res
       excerpt: Components from the compose Resource package
       cta: View
-      url: '/academy/unit/res'
+      url: '/academy/res/res'
     - title: Text
       excerpt: Components from the compose Text package
       cta: View
