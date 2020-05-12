@@ -24,14 +24,10 @@ author:
 
 # Grid navigation
 grid_navigation:
-    - title: Material
-      excerpt: Components from the compose Material package
+    - title: Animation
+      excerpt: Components from the compose Animation package
       cta: View
-      url: '/academy/material/material'
-    - title: Text
-      excerpt: Components from the compose Text package
-      cta: View
-      url: '/academy/text/text'
+      url: '/academy/animation/animation'
     - title: Core
       excerpt: Components from the compose Core package
       cta: View
@@ -52,24 +48,29 @@ grid_navigation:
       excerpt: Components from the compose Layout package
       cta: View
       url: '/academy/layout/layout'
-    - title: Animation
-      excerpt: Components from the compose Animation package
+    - title: Material
+      excerpt: Components from the compose Material package
       cta: View
-      url: '/academy/animation/animation'
-    - title: Unit
-      excerpt: Components from the compose Unit package
+      url: '/academy/material/material'
+    - title: Res
+      excerpt: Components from the compose Resource package
       cta: View
-      url: '/academy/unit/unit'
-    - title: Unit
-      excerpt: Components from the compose Unit package
+      url: '/academy/unit/res'
+    - title: Text
+      excerpt: Components from the compose Text package
       cta: View
-      url: '#'
-    - title: Tooling
-      excerpt: Components related to Tooling
-      cta: View
-      url: '/academy/tooling/tooling'
+      url: '/academy/text/text'
     - title: Testing
       excerpt: Components related to Testing
       cta: View
       url: '/academy/testing/testing'
+    - title: Tooling
+      excerpt: Components related to Tooling
+      cta: View
+      url: '/academy/tooling/tooling'
+    - title: Unit
+      excerpt: Components from the compose Unit package
+      cta: View
+      url: '/academy/unit/unit'
+      
 ---
