@@ -12,6 +12,6 @@ grid_navigation:
     - title: Gesture Filters
       excerpt: Gestures used for detecting interactions with views
       cta: View
-      url: '/academy/material/gestures'
+      url: '/academy/framework/gestures'
       
 ---
