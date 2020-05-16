@@ -4,6 +4,7 @@ layout: homepage
 keywords:
 
 # Hero section
+title: Compose Academy
 description: Snippets and guides for Jetpack Compose on the Android platform
 buttons:
     - content: What is Jetpack Compose?
