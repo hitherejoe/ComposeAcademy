@@ -42,7 +42,7 @@ Snackbar(
     text = { Text(text = "This is a snackbar!") }
 )
 ```
-![](/academy/material/media/snackbar.png)
+![Snackbar](/academy/material/media/snackbar.png)
 
 ## Handling actions
 
@@ -65,13 +65,14 @@ Snackbar(
     }
 )
 ```
-![](/academy/material/media/snackbar_action.png)
+![Snackbar with action](/academy/material/media/snackbar_action.png)
 
 ## Action on new line
 
 ```kotlin
 Snackbar(
-    text = { Text(text = "This is a snackbar with a lot of text, that way it makes sense to use the new line!") },
+    text = { Text(text = "This is a snackbar with a lot of text, 
+        that way it makes sense to use the new line!") },
     action = {
         Clickable(onClick = {
             // Handle action
@@ -89,11 +90,12 @@ Snackbar(
     actionOnNewLine = true
 )
 ```
-![](/academy/material/media/snackbar_new_line.png)
+![Snackbar with action on new line](/academy/material/media/snackbar_new_line.png)
 
 ## Showing a snackbar within a user interface
 
-Awaiting implementation. This will be supported by the scaffold component, which is still marked as a TODO
+Awaiting implementation. This will be supported by the scaffold component, 
+which is still marked as a TODO
 
 ```kotlin
 @Model

@@ -13,7 +13,8 @@ micro_nav: false
 
 ## Constructor
 
-There is a single constructor available for creating a new reference to a Tri-state Checkbox:
+There is a single constructor available for creating a 
+new reference to a Tri-state Checkbox:
 
 ```kotlin
 @Composable
@@ -28,14 +29,18 @@ fun TriStateCheckbox(
 
 ## Declaring a Tri-state checkbox
 
-There are five available properties that we can pass to the Tri-state checkbox function:
+There are five available properties that we can pass to 
+the Tri-state checkbox function:
 
-* **state** – whether or not the checkbox is currently checked. This is required
-* **onClick** – a callback that will receive change events for when the checkbox selected state changes. 
+* **state** – whether or not the checkbox is currently checked. 
+This is required
+* **onClick** – a callback that will receive change events for when 
+the checkbox selected state changes. 
   * This is required
 * **enabled** – whether or not the component is currently enabled for interaction
 * **modifier** – the modifier(s) to be applied to the checkbox
-* **color** – the color to be used for the checkbox. If not provided, then the secondary color from the application theme will be applied
+* **color** – the color to be used for the checkbox. If not provided, 
+then the secondary color from the application theme will be applied
 
 ## Toggle state
 
@@ -87,7 +92,8 @@ TriStateCheckbox(
 
 ```kotlin
 @Model
-class TriStateFormState(var optionChecked: ToggleableState = ToggleableState.Indeterminate)
+class TriStateFormState(var optionChecked: ToggleableState = 
+    ToggleableState.Indeterminate)
 
 @Composable
 fun TriStateCheckboxComponent(formState: TriStateFormState) {
@@ -95,9 +101,12 @@ fun TriStateCheckboxComponent(formState: TriStateFormState) {
         state = formState.optionChecked,
         onClick = {
             when (formState.optionChecked) {
-                ToggleableState.Off -> formState.optionChecked = ToggleableState.Indeterminate
-                ToggleableState.On -> formState.optionChecked = ToggleableState.Off
-                ToggleableState.Indeterminate -> formState.optionChecked = ToggleableState.On
+                ToggleableState.Off -> formState.optionChecked = 
+                    ToggleableState.Indeterminate
+                ToggleableState.On -> formState.optionChecked = 
+                    ToggleableState.Off
+                ToggleableState.Indeterminate -> formState.optionChecked = 
+                    ToggleableState.On
             }
         }
     )
