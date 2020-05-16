@@ -25,7 +25,7 @@ author:
 # Grid navigation
 grid_navigation:
     - title: Animation
-      excerpt: Components from the compose Animation package
+      excerpt: Animate your composables between different states
       cta: View
       url: '/academy/animation/animation'
     - title: Core
@@ -60,10 +60,10 @@ grid_navigation:
       excerpt: Components from the compose Text package
       cta: View
       url: '/academy/text/text'
-    - title: Testing
-      excerpt: Components related to Testing
+    - title: Test
+      excerpt: Test your composables in an automated fashion using a variety of assertions
       cta: View
-      url: '/academy/testing/testing'
+      url: '/academy/testing/test'
     - title: Tooling
       excerpt: Components related to Tooling
       cta: View
