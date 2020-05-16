@@ -11,7 +11,7 @@ micro_nav: false
 
 ---
 
-# Constructor
+## Constructor
 
 There is a single constructor available for creating a new reference to a Tri-state Checkbox:
 
@@ -26,13 +26,13 @@ fun TriStateCheckbox(
 )
 ```
 
-# Declaring a Tri-state checkbox
+## Declaring a Tri-state checkbox
 
 There are five available properties that we can pass to the Tri-state checkbox function:
 
 * **state** – whether or not the checkbox is currently checked. This is required
 * **onClick** – a callback that will receive change events for when the checkbox selected state changes. 
-    * This is required
+  * This is required
 * **enabled** – whether or not the component is currently enabled for interaction
 * **modifier** – the modifier(s) to be applied to the checkbox
 * **color** – the color to be used for the checkbox. If not provided, then the secondary color from the application theme will be applied
@@ -55,9 +55,7 @@ TriStateCheckbox(
     onClick = { }
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/tristate_checkbox_indeterminate.png">
-</p>
+![](/academy/material/media/tristate_checkbox_indeterminate.png)
 
 ```kotlin
 TriStateCheckbox(
@@ -65,9 +63,7 @@ TriStateCheckbox(
     onClick = { }
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/tristate_checkbox_on.png">
-</p>
+![](/academy/material/media/tristate_checkbox_on.png)
 
 ```kotlin
 TriStateCheckbox(
@@ -75,9 +71,7 @@ TriStateCheckbox(
     onClick = { }
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/tristate_checkbox_off.png">
-</p>
+![](/academy/material/media/tristate_checkbox_off.png)
 
 ## Colored checkbox
 
@@ -87,9 +81,7 @@ TriStateCheckbox(
     color = Color.Red
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/tristate_checkbox_colored.png">
-</p>
+![](/academy/material/media/tristate_checkbox_colored.png)
 
 ## Handling check state
 

@@ -118,7 +118,4 @@ Row {
     )
 }
 ```
-
-<p align="center">
-  <img src="/academy/material/media/colored_radiobutton.png">
-</p>
+![](/academy/material/media/colored_radiobutton.png)

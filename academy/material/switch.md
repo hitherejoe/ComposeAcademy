@@ -44,9 +44,8 @@ Switch(
     onCheckedChange = { }
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/switch_checked.png">
-</p>
+![](/academy/material/media/switch_checked.png)
+
 
 ```kotlin
 Switch(
@@ -54,9 +53,7 @@ Switch(
     onCheckedChange = { }
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/switch_unchecked.png">
-</p>
+![](/academy/material/media/switch_unchecked.png)
 
 ## Colored switch
 
@@ -67,9 +64,7 @@ Switch(
     color = Color.Red
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/switch_colored.png">
-</p>
+![](/academy/material/media/switch_colored.png)
 
 ## Handled checked state
 

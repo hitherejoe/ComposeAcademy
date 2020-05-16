@@ -42,9 +42,7 @@ Snackbar(
     text = { Text(text = "This is a snackbar!") }
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/snackbar.png">
-</p>
+![](/academy/material/media/snackbar.png)
 
 ## Handling actions
 
@@ -67,10 +65,7 @@ Snackbar(
     }
 )
 ```
-
-<p align="center">
-  <img src="/academy/material/media/snackbar_action.png">
-</p>
+![](/academy/material/media/snackbar_action.png)
 
 ## Action on new line
 
@@ -94,10 +89,7 @@ Snackbar(
     actionOnNewLine = true
 )
 ```
-
-<p align="center">
-  <img src="/academy/material/media/snackbar_new_line.png">
-</p>
+![](/academy/material/media/snackbar_new_line.png)
 
 ## Showing a snackbar within a user interface
 

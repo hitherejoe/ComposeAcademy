@@ -60,10 +60,7 @@ Stack(modifier = Modifier.fillMaxSize()) {
     )
 }
 ```
-
-<p align="center">
-  <img src="/academy/layout/media/stack_children.png">
-</p>
+![](/academy/material/media/stack_children.png)
 
 ## Stack with overlapping children
 
@@ -95,7 +92,4 @@ Stack(modifier = Modifier.fillMaxSize()) {
     )
 }
 ```
-
-<p align="center">
-  <img src="/academy/layout/media/stack_overlap.png">
-</p>
+![](/academy/material/media/stack_overlap.png)

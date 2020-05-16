@@ -34,9 +34,9 @@ fun Checkbox(
 There are five available properties that we can pass to the Checkbox function:
 
 * **checked** – whether or not the checkbox is currently checked
-    * required
+  * required
 * **onCheckedChange** – a callback that will receive change events for when the checkbox selected state changes
-    * required
+  * required
 * **modifier** – the modifier(s) to be applied to the checkbox
 * **color** – the color to be used for the checkbox. If not provided, then the secondary color from the application theme will be applied
 
@@ -48,9 +48,7 @@ Checkbox(
     onCheckedChange = { }
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/checkbox.png">
-</p>
+![](/academy/material/media/checkbox.png)
 
 ## Handling check changes
 
@@ -63,9 +61,7 @@ Checkbox(
     color = Color.Red
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/colored_checkbox.png">
-</p>
+![](/academy/material/media/colored_checkbox.png)
 
 ### Enabling / Disabling the checkbox
 

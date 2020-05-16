@@ -54,9 +54,7 @@ Box(
 )
 ```
 
-<p align="center">
-  <img src="/academy/foundation/media/border.png">
-</p>
+![](/academy/foundation/media/border.png)
 
 ```kotlin
 Box(
@@ -65,7 +63,4 @@ Box(
 )
 ```
 
-<p align="center">
-  <img src="/academy/foundation/media/border_brush.png">
-</p>
-
+![](/academy/foundation/media/border_brush.png)

@@ -88,14 +88,9 @@ Arrangement.Center
 ```kotlin
 Arrangement.SpaceEvenly
 ```
+![](/academy/layout/media/arrange_space_evenly_row.png)
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_evenly_row.png">
-</p>
-
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_evenly_column.png">
-</p>
+![](/academy/layout/media/arrange_space_evenly_column.png)
 
 ## Arrange items using SpaceBetween
 
@@ -103,13 +98,9 @@ Arrangement.SpaceEvenly
 Arrangement.SpaceBetween
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_between_row.png">
-</p>
+![](/academy/layout/media/arrange_space_between_row.png)
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_between_column.png">
-</p>
+![](/academy/layout/media/arrange_space_between_column.png)
 
 ## Arrange items using SpaceAround
 
@@ -117,10 +108,6 @@ Arrangement.SpaceBetween
 Arrangement.SpaceAround
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_around_row.png">
-</p>
+![](/academy/layout/media/arrange_space_around_row.png)
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_around_column.png">
-</p>
+![](/academy/layout/media/arrange_space_around_column.png)
