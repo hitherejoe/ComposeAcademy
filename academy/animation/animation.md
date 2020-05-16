@@ -13,5 +13,9 @@ grid_navigation:
       excerpt: Single Value animations
       cta: View
       url: '/academy/animation/singleValue'
+    - title: Transition
+      excerpt: Transition animations
+      cta: View
+      url: '/academy/animation/transition'
       
 ---
