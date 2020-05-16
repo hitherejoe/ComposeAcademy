@@ -60,7 +60,8 @@ TriStateCheckbox(
     onClick = { }
 )
 ```
-![](/academy/material/media/tristate_checkbox_indeterminate.png)
+
+![Indeterminate checkbox](/academy/material/media/tristate_checkbox_indeterminate.png)
 
 ```kotlin
 TriStateCheckbox(
@@ -68,7 +69,8 @@ TriStateCheckbox(
     onClick = { }
 )
 ```
-![](/academy/material/media/tristate_checkbox_on.png)
+
+![Checked checbox](/academy/material/media/tristate_checkbox_on.png)
 
 ```kotlin
 TriStateCheckbox(
@@ -76,7 +78,8 @@ TriStateCheckbox(
     onClick = { }
 )
 ```
-![](/academy/material/media/tristate_checkbox_off.png)
+
+![Unchecked checkbox](/academy/material/media/tristate_checkbox_off.png)
 
 ## Colored checkbox
 
@@ -86,7 +89,8 @@ TriStateCheckbox(
     color = Color.Red
 )
 ```
-![](/academy/material/media/tristate_checkbox_colored.png)
+
+![Colored checkbox](/academy/material/media/tristate_checkbox_colored.png)
 
 ## Handling check state
 
