@@ -11,7 +11,7 @@ micro_nav: false
 
 ---
 
-# Constructor
+## Constructor
 
 There is a single constructor available for creating a new reference to a Switch:
 
@@ -25,14 +25,14 @@ fun Switch(
 )
 ```
 
-# Declaring a Switch
+## Declaring a Switch
 
 There are four available properties that we can pass to the Switch function:
 
 * **checkedt** – whether or not the switch is currently checked. This is required
 * **onCheckedChanget** – a callback that will receive change events for when the selected state of the component changes  
 changes.    
-    * This is required
+  * This is required
 * **enabledt** – declares whether the component is currently enabled
 * **colort** – the color to be used for the component. If not provided, then the secondary color from the application theme will be applied
 

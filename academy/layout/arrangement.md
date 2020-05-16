@@ -14,8 +14,7 @@ micro_nav: false
 
 ---
 
-
-# Interface
+## Interface
 
 ```kotlin
 interface Arrangement
@@ -25,8 +24,7 @@ interface Vertical : Arrangement
 interface Horizontal : Arrangement
 ```
 
-
-# Arrange items at the top
+## Arrange items at the top
 
 ```kotlin
 Arrangement.Top
@@ -37,7 +35,7 @@ Arrangement.Top
 </p>
 
 
-# Arrange items at the bottom
+## Arrange items at the bottom
 
 ```kotlin
 Arrangement.Bottom
@@ -48,7 +46,7 @@ Arrangement.Bottom
 </p>
 
 
-# Arrange items at the start
+## Arrange items at the start
 
 ```kotlin
 Arrangement.Start
@@ -59,7 +57,7 @@ Arrangement.Start
 </p>
 
 
-# Arrange items at the end
+## Arrange items at the end
 
 ```kotlin
 Arrangement.End
@@ -70,7 +68,7 @@ Arrangement.End
 </p>
 
 
-# Arrange items in the center
+## Arrange items in the center
 
 ```kotlin
 Arrangement.Center
@@ -85,7 +83,7 @@ Arrangement.Center
 </p>
 
 
-# Arrange items using SpaceEvenly
+## Arrange items using SpaceEvenly
 
 ```kotlin
 Arrangement.SpaceEvenly
@@ -99,8 +97,7 @@ Arrangement.SpaceEvenly
   <img src="/academy/layout/media/arrange_space_evenly_column.png">
 </p>
 
-
-# Arrange items using SpaceBetween
+## Arrange items using SpaceBetween
 
 ```kotlin
 Arrangement.SpaceBetween
@@ -114,8 +111,7 @@ Arrangement.SpaceBetween
   <img src="/academy/layout/media/arrange_space_between_column.png">
 </p>
 
-
-# Arrange items using SpaceAround
+## Arrange items using SpaceAround
 
 ```kotlin
 Arrangement.SpaceAround

@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-# Constructor
+## Constructor
 
 There is a single constructor available for creating a new reference to a Radio Button component:
 
@@ -27,14 +27,14 @@ fun RadioButton(
 )
 ```
 
-# Declaring a Radio Button
+## Declaring a Radio Button
 
 There are three available properties that we can pass to the Checkbox function:
 
 * **selected** – whether or not the button is currently selected
-    * required
+  * required
 * **onSelect** – a callback that will receive change events for when the selected state of the component changes changes
-    * required
+  * required
 * **color** – the color to be used for the radio button. If not provided, then the secondary color from the application theme will be applied
 
 ## Simple Radio Button with label

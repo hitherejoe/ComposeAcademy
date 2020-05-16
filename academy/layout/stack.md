@@ -14,8 +14,7 @@ micro_nav: false
 
 ---
 
-# Constructor
-
+## Constructor
 
 ```kotlin
 fun Stack(
@@ -24,8 +23,7 @@ fun Stack(
 )
 ```
 
-
-# Scope
+## Scope
 
 ```kotlin
 @LayoutScopeMarker
@@ -37,7 +35,7 @@ class StackScope {
 }
 ```
 
-# Stack with relative children
+## Stack with relative children
 
 ```kotlin
 Stack(modifier = Modifier.fillMaxSize()) {
@@ -67,7 +65,7 @@ Stack(modifier = Modifier.fillMaxSize()) {
   <img src="/academy/layout/media/stack_children.png">
 </p>
 
-# Stack with overlapping children
+## Stack with overlapping children
 
 ```kotlin
 Stack(modifier = Modifier.fillMaxSize()) {

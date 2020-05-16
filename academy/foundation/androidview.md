@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-# Constructor
+## Constructor
 
 There is a single constructor available for creating a new reference to a AndroidView component:
 
@@ -31,22 +31,22 @@ fun AndroidView(
 }
 ```
 
-# Declaring an AndroidView
+## Declaring an AndroidView
 
 There are two available properties that we can pass to the AndroidView function:
 
 * **resId** – the id of the layout which we wish to inflate
-    * required
+  * required
 * **postInflationCallback** – a callback for when the view has been inflated
-    * required
+  * required
 
-## Building an AndroidView
+### Building an AndroidView
 
 ```kotlin
 AndroidView(resId = R.layout.view_demo)
 ```
 
-## Using an AndroidView
+### Using an AndroidView
 
 ```kotlin
 Surface(
@@ -65,7 +65,7 @@ Surface(
   <img src="/academy/foundation/media/androidview.png">
 </p>
 
-## Embed custom views
+### Embed custom views
 
 ```kotlin
 Surface(
@@ -86,7 +86,8 @@ class MyCustomView @JvmOverloads constructor(
 ) : AppCompatTextView(context, attrs, defStyleAttr) {
 
     init {
-        layoutParams = ViewGroup.LayoutParams(MATCH_PARENT, WRAP_CONTENT)
+        layoutParams = 
+            ViewGroup.LayoutParams(MATCH_PARENT, WRAP_CONTENT)
         text = "Hello there!"
     }
 

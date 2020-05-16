@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-# Constructor
+## Constructor
 
 There are two ways to create a new reference to a Border. the first is via the Border function:
 
@@ -29,7 +29,7 @@ The second by directly instantiating the Border class.
 data class Border(val size: Dp, val brush: Brush)
 ```
 
-# Declaring a Border
+## Declaring a Border
 
 When calling the Border function we are required to pass two properties:
 
