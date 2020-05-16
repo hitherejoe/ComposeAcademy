@@ -48,7 +48,7 @@ Checkbox(
     onCheckedChange = { }
 )
 ```
-![](/academy/material/media/checkbox.png)
+![Checkbox](/academy/material/media/checkbox.png)
 
 ## Handling check changes
 
@@ -61,7 +61,7 @@ Checkbox(
     color = Color.Red
 )
 ```
-![](/academy/material/media/colored_checkbox.png)
+![Colored checkbox](/academy/material/media/colored_checkbox.png)
 
 ### Enabling / Disabling the checkbox
 

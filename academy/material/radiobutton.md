@@ -51,9 +51,7 @@ Row {
 }
 ```
 
-<p align="center">
-  <img src="/academy/material/media/radiobutton.png">
-</p>
+![Radio button](/academy/material/media/radiobutton.png)
 
 ```kotlin
 Row {
@@ -67,9 +65,7 @@ Row {
 }
 ```
 
-<p align="center">
-  <img src="/academy/material/media/selected_radiobutton.png">
-</p>
+![Selected radio button](/academy/material/media/selected_radiobutton.png)
 
 ## Handling selection changes
 
@@ -118,4 +114,4 @@ Row {
     )
 }
 ```
-![](/academy/material/media/colored_radiobutton.png)
+![Color radio button](/academy/material/media/colored_radiobutton.png)
