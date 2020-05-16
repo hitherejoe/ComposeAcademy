@@ -11,11 +11,11 @@ micro_nav: false
 
 ---
 
-# Detecting gestures
+## Detecting gestures
 
 When it comes to detecting gestures, we need to add filter modifiers to the components that we wish to listen for interactions with. These filters will then receive events within their callbacks when the interactions occur.
 
-## Tap gestures
+### Tap gestures
 
 ```kotlin
 Text(
@@ -26,7 +26,7 @@ Text(
 )
 ```
 
-## Double-tap gestures
+### Double-tap gestures
 
 ```kotlin
 Text(
@@ -37,7 +37,7 @@ Text(
 )
 ```
 
-## Long-press gestures
+### Long-press gestures
 
 ```kotlin
 Text(
@@ -48,7 +48,7 @@ Text(
 )
 ```
 
-## Drag gestures
+### Drag gestures
 
 ```kotlin
 Text(

@@ -14,8 +14,6 @@ micro_nav: false
 
 ---
 
-# Single value animation
-
 When it comes to single value animations, Jetpack Compose offers the following functionalities.
 
 ## Color animation

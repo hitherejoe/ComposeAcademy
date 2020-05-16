@@ -14,8 +14,6 @@ micro_nav: false
 
 ---
 
-# Crossfade animation
-
 When it comes to the crossfade animation, Jetpack Compose offers the following functionalities.
 
 ## Animate between states
