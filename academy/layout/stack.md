@@ -60,7 +60,8 @@ Stack(modifier = Modifier.fillMaxSize()) {
     )
 }
 ```
-![](/academy/material/media/stack_children.png)
+
+![Stack with relative children](/academy/layout/media/stack_children.png)
 
 ## Stack with overlapping children
 
@@ -92,4 +93,5 @@ Stack(modifier = Modifier.fillMaxSize()) {
     )
 }
 ```
-![](/academy/material/media/stack_overlap.png)
+
+![Stack with overlapping children](/academy/layout/media/stack_overlap.png)

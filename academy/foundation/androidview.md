@@ -61,9 +61,7 @@ Surface(
 }
 ```
 
-<p align="center">
-  <img src="/academy/foundation/media/androidview.png">
-</p>
+![Android View](/academy/foundation/media/androidview.png)
 
 ### Embed custom views
 
