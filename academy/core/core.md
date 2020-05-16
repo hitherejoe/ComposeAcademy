@@ -4,18 +4,18 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Animation
-description: Components from the Animation package
+title: Core
+description: Components from the Core package
 
 # Grid navigation
 grid_navigation:
-    - title: Single Value
-      excerpt: Single Value animations
+    - title: Alignment
+      excerpt: Align composables in their container
       cta: View
-      url: '/academy/animation/singleValue'
-    - title: Transition
-      excerpt: Transition animations
+      url: '/academy/core/alignment'
+    - title: Gesture
+      excerpt: Detecting gestures on composables
       cta: View
-      url: '/academy/animation/transition'
+      url: '/academy/core/gesture'
       
 ---
