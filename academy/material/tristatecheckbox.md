@@ -13,7 +13,7 @@ micro_nav: false
 
 ## Constructor
 
-There is a single constructor available for creating a 
+There is a single constructor available for creating a  
 new reference to a Tri-state Checkbox:
 
 ```kotlin
@@ -29,17 +29,17 @@ fun TriStateCheckbox(
 
 ## Declaring a Tri-state checkbox
 
-There are five available properties that we can pass to 
+There are five available properties that we can pass to  
 the Tri-state checkbox function:
 
 * **state** – whether or not the checkbox is currently checked. 
 This is required
-* **onClick** – a callback that will receive change events for when 
+* **onClick** – a callback that will receive change events for when  
 the checkbox selected state changes. 
   * This is required
 * **enabled** – whether or not the component is currently enabled for interaction
 * **modifier** – the modifier(s) to be applied to the checkbox
-* **color** – the color to be used for the checkbox. If not provided, 
+* **color** – the color to be used for the checkbox. If not provided,  
 then the secondary color from the application theme will be applied
 
 ## Toggle state

@@ -30,10 +30,7 @@ interface Horizontal : Arrangement
 Arrangement.Top
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_top.png">
-</p>
-
+![Arrange bottom](/academy/layout/media/arrange_top.png)
 
 ## Arrange items at the bottom
 
@@ -41,10 +38,7 @@ Arrangement.Top
 Arrangement.Bottom
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_bottom.png">
-</p>
-
+![Arrange bottom](/academy/layout/media/arrange_bottom.png)
 
 ## Arrange items at the start
 
@@ -52,10 +46,7 @@ Arrangement.Bottom
 Arrangement.Start
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_start.png">
-</p>
-
+![Arrange end](/academy/layout/media/arrange_start.png)
 
 ## Arrange items at the end
 
@@ -63,10 +54,7 @@ Arrangement.Start
 Arrangement.End
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_end.png">
-</p>
-
+![Arrange end](/academy/layout/media/arrange_end.png)
 
 ## Arrange items in the center
 
@@ -74,23 +62,19 @@ Arrangement.End
 Arrangement.Center
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_center_row.png">
-</p>
+![Arrange center, row](/academy/layout/media/arrange_center_row.png)
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_center_column.png">
-</p>
-
+![Arrange center, column](/academy/layout/media/arrange_center_column.png)
 
 ## Arrange items using SpaceEvenly
 
 ```kotlin
 Arrangement.SpaceEvenly
 ```
-![](/academy/layout/media/arrange_space_evenly_row.png)
 
-![](/academy/layout/media/arrange_space_evenly_column.png)
+![Arrange space evenly, row](/academy/layout/media/arrange_space_evenly_row.png)
+
+![Arrange space evenly, column](/academy/layout/media/arrange_space_evenly_column.png)
 
 ## Arrange items using SpaceBetween
 
@@ -98,9 +82,9 @@ Arrangement.SpaceEvenly
 Arrangement.SpaceBetween
 ```
 
-![](/academy/layout/media/arrange_space_between_row.png)
+![Arrange space between, row](/academy/layout/media/arrange_space_between_row.png)
 
-![](/academy/layout/media/arrange_space_between_column.png)
+![Arrange space between, column](/academy/layout/media/arrange_space_between_column.png)
 
 ## Arrange items using SpaceAround
 
@@ -108,6 +92,6 @@ Arrangement.SpaceBetween
 Arrangement.SpaceAround
 ```
 
-![](/academy/layout/media/arrange_space_around_row.png)
+![Arrange space around, row](/academy/layout/media/arrange_space_around_row.png)
 
-![](/academy/layout/media/arrange_space_around_column.png)
+![Arrange space around, column](/academy/layout/media/arrange_space_around_column.png)
