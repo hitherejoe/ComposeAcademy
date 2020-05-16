@@ -14,8 +14,6 @@ micro_nav: false
 
 ---
 
-# Single value animation
-
 When it comes to single value animations, Jetpack Compose offers the following functionalities.
 
 ## Color animation
@@ -36,7 +34,9 @@ Clickable({ enabled.value = !enabled.value }) {
 ```kotlin
 val enabled = state { true }
 Clickable({ enabled.value = !enabled.value }) {
-    Stack(modifier = Modifier.padding(animate(if (enabled.value) 0f else 100f).dp)) {
+    Stack(modifier = Modifier.padding(
+      animate(if (enabled.value) 0f else 100f).dp)
+   	) {
         Box(Modifier.fillMaxSize(), backgroundColor = Color.Green)
         Text(text = "Click me to change padding!")
     }

@@ -14,8 +14,7 @@ micro_nav: false
 
 ---
 
-
-# Interface
+## Interface
 
 ```kotlin
 interface Arrangement
@@ -25,106 +24,74 @@ interface Vertical : Arrangement
 interface Horizontal : Arrangement
 ```
 
-
-# Arrange items at the top
+## Arrange items at the top
 
 ```kotlin
 Arrangement.Top
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_top.png">
-</p>
+![Arrange bottom](/academy/layout/media/arrange_top.png)
 
-
-# Arrange items at the bottom
+## Arrange items at the bottom
 
 ```kotlin
 Arrangement.Bottom
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_bottom.png">
-</p>
+![Arrange bottom](/academy/layout/media/arrange_bottom.png)
 
-
-# Arrange items at the start
+## Arrange items at the start
 
 ```kotlin
 Arrangement.Start
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_start.png">
-</p>
+![Arrange end](/academy/layout/media/arrange_start.png)
 
-
-# Arrange items at the end
+## Arrange items at the end
 
 ```kotlin
 Arrangement.End
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_end.png">
-</p>
+![Arrange end](/academy/layout/media/arrange_end.png)
 
-
-# Arrange items in the center
+## Arrange items in the center
 
 ```kotlin
 Arrangement.Center
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_center_row.png">
-</p>
+![Arrange center, row](/academy/layout/media/arrange_center_row.png)
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_center_column.png">
-</p>
+![Arrange center, column](/academy/layout/media/arrange_center_column.png)
 
-
-# Arrange items using SpaceEvenly
+## Arrange items using SpaceEvenly
 
 ```kotlin
 Arrangement.SpaceEvenly
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_evenly_row.png">
-</p>
+![Arrange space evenly, row](/academy/layout/media/arrange_space_evenly_row.png)
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_evenly_column.png">
-</p>
+![Arrange space evenly, column](/academy/layout/media/arrange_space_evenly_column.png)
 
-
-# Arrange items using SpaceBetween
+## Arrange items using SpaceBetween
 
 ```kotlin
 Arrangement.SpaceBetween
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_between_row.png">
-</p>
+![Arrange space between, row](/academy/layout/media/arrange_space_between_row.png)
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_between_column.png">
-</p>
+![Arrange space between, column](/academy/layout/media/arrange_space_between_column.png)
 
-
-# Arrange items using SpaceAround
+## Arrange items using SpaceAround
 
 ```kotlin
 Arrangement.SpaceAround
 ```
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_around_row.png">
-</p>
+![Arrange space around, row](/academy/layout/media/arrange_space_around_row.png)
 
-<p align="center">
-  <img src="/academy/layout/media/arrange_space_around_column.png">
-</p>
+![Arrange space around, column](/academy/layout/media/arrange_space_around_column.png)

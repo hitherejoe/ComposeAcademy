@@ -11,7 +11,7 @@ micro_nav: false
 
 ---
 
-# Constructor
+## Constructor
 
 There is a single constructor available for creating a new reference to a Snackbar:
 
@@ -25,28 +25,29 @@ fun Snackbar(
 )
 ```
 
-# Declaring a Snackbar
+## Declaring a Snackbar
 
 There are four available properties that we can pass to the Snackbar function:
 
 * **text** – the text to be displayed within the snackbar
-    * required
-* **action** – an action, in the form of a composable, to be displayed within the snackbar
+  * required
+* **action** – an action, in the form of a composable, to be displayed  
+within the snackbar
 * **modifier** – the modifier(s) to be applied to the snackbar
-* **actionOnNewLine** – declares whether the action text should be displayed on a new line
+* **actionOnNewLine** – declares whether the action text should be  
+displayed on a new line
 
-## Minimal snackbar
+### Minimal snackbar
 
 ```kotlin
 Snackbar(
     text = { Text(text = "This is a snackbar!") }
 )
 ```
-<p align="center">
-  <img src="/academy/material/media/snackbar.png">
-</p>
 
-## Handling actions
+![Snackbar](/academy/material/media/snackbar.png)
+
+### Handling actions
 
 ```kotlin
 Snackbar(
@@ -68,15 +69,14 @@ Snackbar(
 )
 ```
 
-<p align="center">
-  <img src="/academy/material/media/snackbar_action.png">
-</p>
+![Snackbar with action](/academy/material/media/snackbar_action.png)
 
-## Action on new line
+### Action on new line
 
 ```kotlin
 Snackbar(
-    text = { Text(text = "This is a snackbar with a lot of text, that way it makes sense to use the new line!") },
+    text = { Text(text = "This is a snackbar with a lot of text, 
+        that way it makes sense to use the new line!") },
     action = {
         Clickable(onClick = {
             // Handle action
@@ -95,13 +95,12 @@ Snackbar(
 )
 ```
 
-<p align="center">
-  <img src="/academy/material/media/snackbar_new_line.png">
-</p>
+![Snackbar with action on new line](/academy/material/media/snackbar_new_line.png)
 
-## Showing a snackbar within a user interface
+### Showing a snackbar within a user interface
 
-Awaiting implementation. This will be supported by the scaffold component, which is still marked as a TODO
+Awaiting implementation. This will be supported by the scaffold component, 
+which is still marked as a TODO
 
 ```kotlin
 @Model

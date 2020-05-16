@@ -14,9 +14,10 @@ micro_nav: false
 
 ---
 
-# Constructor
+## Constructor
 
-There are two ways to create a new reference to a Border. the first is via the Border function:
+There are two ways to create a new reference to a Border. the  
+first is via the Border function:
 
 ```kotlin
 fun Border(size: Dp, color: Color) = Border(size, SolidColor(color))
@@ -29,21 +30,21 @@ The second by directly instantiating the Border class.
 data class Border(val size: Dp, val brush: Brush)
 ```
 
-# Declaring a Border
+## Declaring a Border
 
 When calling the Border function we are required to pass two properties:
 
 * **size** – the thickness of the border
-    * required
+  * required
 * **color** – the Color to be used for the border
-    * required
+  * required
     
 When using the Border class directly we are required to pass two properties:
 
 * **size** – the thickness of the border
-    * required
+  * required
 * **brush** – a reference to a Brush instance, used for the styling of the border
-    * required
+  * required
 
 ## Using a border
 
@@ -54,9 +55,7 @@ Box(
 )
 ```
 
-<p align="center">
-  <img src="/academy/foundation/media/border.png">
-</p>
+![Border](/academy/foundation/media/border.png)
 
 ```kotlin
 Box(
@@ -65,7 +64,4 @@ Box(
 )
 ```
 
-<p align="center">
-  <img src="/academy/foundation/media/border_brush.png">
-</p>
-
+![Border using brush](/academy/foundation/media/border_brush.png)

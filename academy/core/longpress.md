@@ -14,8 +14,6 @@ micro_nav: false
 
 ---
 
-# Detecting long press
-
 Detecting a long press can be done by utilising the longPressGestureFilter when providing modifiers for your desired view:
 
 ```kotlin

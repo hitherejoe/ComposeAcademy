@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-# String resources
+## String resources
 
 When it comes to accessing string resources, Jetpack Compose offers the following functionalities.
 
