@@ -5,8 +5,8 @@ doks:
     color_theme: # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
-            text: Compose Academy
-            image:
+            text:
+            image: true
     footer:
         content:
             logo:
