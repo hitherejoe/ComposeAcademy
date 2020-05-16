@@ -11,7 +11,7 @@ buttons:
       url: https://developer.android.com/jetpack/compose
       external_url: true
     - icon: github
-      content: Contribute
+      content: Sponser & Star
       url: 'https://github.com/hitherejoe/ComposeAcademy'
       external_url: true
 
