@@ -30,10 +30,12 @@ fun Snackbar(
 There are four available properties that we can pass to the Snackbar function:
 
 * **text** – the text to be displayed within the snackbar
-    * required
-* **action** – an action, in the form of a composable, to be displayed within the snackbar
+  * required
+* **action** – an action, in the form of a composable, to be displayed  
+within the snackbar
 * **modifier** – the modifier(s) to be applied to the snackbar
-* **actionOnNewLine** – declares whether the action text should be displayed on a new line
+* **actionOnNewLine** – declares whether the action text should be  
+displayed on a new line
 
 ### Minimal snackbar
 

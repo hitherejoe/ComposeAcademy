@@ -24,7 +24,7 @@ var currentString by state { strings[0] }
 
 Column(modifier = Modifier.fillMaxWidth()) {
     Clickable(onClick = {
-        currentString = if (currentString == strings[0]) 
+        currentString = if (currentString == strings[0])
             strings[1] else strings[0]
     }) {
         Crossfade(current = currentString) { color ->
