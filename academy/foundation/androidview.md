@@ -31,8 +31,6 @@ fun AndroidView(
 }
 ```
 
-## Declaring an AndroidView
-
 There are two available properties that we can pass to the AndroidView function:
 
 * **resId** – the id of the layout which we wish to inflate
