@@ -62,8 +62,7 @@ grid_navigation:
       cta: View
       url: '/academy/text/text'
     - title: Test
-      excerpt: Test your composables in an automated fashion using a  
-      variety of assertions
+      excerpt: Test your composables in an automated fashion using a variety of assertions
       cta: View
       url: '/academy/test/test'
     - title: Tooling
