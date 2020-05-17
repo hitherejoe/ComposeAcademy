@@ -50,7 +50,7 @@ grid_navigation:
       cta: View
       url: '/academy/layout/layout'
     - title: Material
-      excerpt: Components from the compose Material package
+      excerpt: Composables used for creating material UI components
       cta: View
       url: '/academy/material/material'
     - title: Res
@@ -62,7 +62,8 @@ grid_navigation:
       cta: View
       url: '/academy/text/text'
     - title: Test
-      excerpt: Test your composables in an automated fashion using a variety of assertions
+      excerpt: Test your composables in an automated fashion using a  
+      variety of assertions
       cta: View
       url: '/academy/test/test'
     - title: Tooling
