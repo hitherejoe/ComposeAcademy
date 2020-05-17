@@ -46,8 +46,7 @@ grid_navigation:
       cta: View
       url: '/academy/graphics/graphics'
     - title: Layout
-      excerpt: Containers used for laying out and arranging child    
-      composables
+      excerpt: Containers used for laying out and arranging child composables
       cta: View
       url: '/academy/layout/layout'
     - title: Material
