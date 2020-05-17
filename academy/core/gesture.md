@@ -9,7 +9,7 @@ description: Gesture that can be detected from view interactions
 
 # Grid navigation
 grid_navigation:
-	- title: Tap
+	  - title: Tap
       excerpt: Detect single tap gestures performed on a composable
       cta: View
       url: '/academy/gesture/tap'
