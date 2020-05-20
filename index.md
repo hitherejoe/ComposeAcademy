@@ -15,6 +15,9 @@ buttons:
       content: Sponser & Star
       url: 'https://github.com/hitherejoe/ComposeAcademy'
       external_url: true
+    - content: Playground App
+      url: 'https://github.com/hitherejoe/ComposeAcademy-Playground'
+      external_url: true
 
 # Author box
 author:
