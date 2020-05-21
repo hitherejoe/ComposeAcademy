@@ -37,7 +37,7 @@ fun Popup(
 )
 ```
 
-### Creating a standard popup
+## Creating a standard popup
 
 
 
@@ -57,7 +57,7 @@ Popup {
 }
 ```
 
-### Popup properties
+## Popup properties
 
 Above we saw the mention of the PopupProperties class - this allows us to provide  
 some additional properties for the popup. Currently the class supports two 
@@ -76,7 +76,7 @@ data class PopupProperties(
 )
 ```
 
-### Creating a dropdown popup
+## Creating a dropdown popup
 
 The Dropdown Popup can be used when we wish to offset the popup to be displayed  
 in a dropdown format. The Dropdown popup provides several additional properties  
