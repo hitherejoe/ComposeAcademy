@@ -6,11 +6,8 @@ keywords:
 
 # Hero section
 title: Compose Academy
-description: Snippets and guides for Jetpack Compose on the Android platform
+description: Snippets and guides for [Jetpack Compose]("https://developer.android.com/jetpack/compose") on the Android platform
 buttons:
-    - content: What is Jetpack Compose?
-      url: https://developer.android.com/jetpack/compose
-      external_url: true
     - icon: github
       content: Sponser & Star
       url: 'https://github.com/hitherejoe/ComposeAcademy'
