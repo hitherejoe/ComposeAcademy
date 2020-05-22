@@ -3,7 +3,7 @@
  */
 
 /* ----- General ----- */
-.section {
+.section-default {
 	padding: 3.75rem 0 (3.75rem - 1.25rem) 0;
 
 	@media (min-width: $screen-sm-min) {
@@ -12,10 +12,10 @@
 }
 
 /* ----- Variations ----- */
-.section--darker-theme-color-bg {
+.section-default--darker-theme-color-bg {
 	background-color: darken($color-theme-blue, 3%);
 }
 
-.section--grey {
+.section-default--grey {
 	background-color: $color-section-grey;
 }
