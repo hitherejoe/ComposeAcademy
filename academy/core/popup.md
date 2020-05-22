@@ -8,6 +8,11 @@ comments: false
 # Hero section
 title: Popup
 description: Defines a composable used for presenting information to a user via a popup 
+buttons:
+    - icon: github
+      content: View in playground
+      url: 'https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/core/popup.kt'
+      external_url: true
 
 # Micro navigation
 micro_nav: false
@@ -39,7 +44,8 @@ fun Popup(
 
 ## Creating a standard popup
 
-
+At a minimum, a Popup can be created by providing a child component that we  
+wish to display as the composable content.
 
 ```kotlin
 Popup {
