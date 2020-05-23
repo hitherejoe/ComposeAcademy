@@ -9,12 +9,16 @@ description: Components from the Res package
 
 # Grid navigation
 grid_navigation:
+	- title: Color
+      excerpt: Access color resource values
+      cta: View
+      url: '/academy/res/color'
     - title: Strings
-      excerpt: Access string resouces
+      excerpt: Access string resources
       cta: View
       url: '/academy/res/strings'
     - title: Primitive
-      excerpt: Access primitive resouce values
+      excerpt: Access primitive resource values
       cta: View
       url: '/academy/res/primitive'
       
