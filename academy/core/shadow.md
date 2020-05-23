@@ -14,10 +14,10 @@ micro_nav: false
 
 ---
 
-## Applying a shadow
+## Draw Shadow Function
 
 ```kotlin
-Modifier..drawShadow(12.dp, RectangleShape)
+Modifier.drawShadow(12.dp, RectangleShape)
 ```
 
 You can apply a shadow to a compasable by applying the shadow modifier. When applying the shadow modifier you will need to provide:
@@ -30,6 +30,8 @@ You can apply a shadow to a compasable by applying the shadow modifier. When app
   of the shape
 
   * **opacity** - the opacity to be applied when drawing the shadow
+
+## Example
 
 ```kotlin
 Box(
