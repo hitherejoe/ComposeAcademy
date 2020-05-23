@@ -14,11 +14,9 @@ micro_nav: false
 
 ---
 
-## Color resources
-
-When it comes to accessing color resources, Jetpack Compose offers the following functionalities.
-
 ## Accessing a color resource
+
+Using the **colorResource** function, a single color resource can be accessed.
 
 ```kotlin
 <color name="colorPrimary">#6200EE</color>

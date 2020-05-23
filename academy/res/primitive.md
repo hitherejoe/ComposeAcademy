@@ -14,11 +14,9 @@ micro_nav: false
 
 ---
 
-## String resources
-
-When it comes to accessing string resources, Jetpack Compose offers the following functionalities.
-
 ## Accessing an integer resource
+
+Using the **integerResource** function, a single integer resource can be accessed.
 
 ```kotlin
 <integer name="some_integer">5</integer>
@@ -29,6 +27,8 @@ repeat(integerResource(id = R.integer.some_integer)) {
 ```
 
 ## Accessing an integer array resource
+
+Using the **integerArrayResource** function, an array of strings can be accessed.
 
 ```kotlin
 <integer-array name="some_integer_array">
@@ -46,6 +46,8 @@ integerArrayResource(id = R.array.some_integer_array).forEach {
 
 ## Accessing a boolean resource
 
+Using the **booleanResource** function, a single integer resource can be accessed.
+
 ```kotlin
 <bool name="is_feature_enabled">true</bool>
 
@@ -55,11 +57,10 @@ Text(text = "Is enabled: ${booleanResource(id = R.bool.is_feature_enabled)}",
 
 ## Accessing a dimension resource
 
+Using the **dimensionResource** function, a single dimension resource can be accessed.
+
 ```kotlin
 <dimen name="padding">16dp</dimen>
-
-Text(text = "Is enabled: ${booleanResource(id = R.bool.is_feature_enabled)}",
-    modifier = Modifier.padding(16.dp))
 
 Text(text = "Adding some padding",
     modifier = Modifier.padding(dimensionResource(id = R.dimen.padding)))
