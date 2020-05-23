@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-## Opacity Function
+## Opacity Modifier
 
 ```kotlin
 Modifier.drawOpacity(0.2f)

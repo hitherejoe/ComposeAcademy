@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-## Draw Shadow Function
+## Draw Shadow Modifier
 
 ```kotlin
 Modifier.drawShadow(12.dp, RectangleShape)
