@@ -39,3 +39,5 @@ Box(
     backgroundColor = Color.Green
 )
 ```
+
+![Shadow](/academy/core/media/shadow.png)

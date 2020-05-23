@@ -32,3 +32,5 @@ Box(
     backgroundColor = Color.Green
 )
 ```
+
+![Opacity](/academy/core/media/opacity.png)
