@@ -6,7 +6,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Crossface
+title: Crossfade
 description: Used to animate between different states
 
 # Micro navigation
@@ -14,7 +14,22 @@ micro_nav: false
 
 ---
 
-When it comes to the crossfade animation, Jetpack Compose offers the following functionalities.
+When creating a crossfade animation there are three properties which can be provided:
+
+* **current** – the current state of the animation. When this is changed, the crossfade will be performed to this value
+  * required
+* **animation** – the animation used for the crossfade. By default this will be the tween animation
+* **children** – the child composables that are being animated
+  * required
+
+```kotlin
+@Composable
+fun <T> Crossfade(
+    current: T,
+    animation: AnimationBuilder<Float> = TweenBuilder(),
+    children: @Composable() (T) -> Unit
+)
+```
 
 ## Animate between states
 

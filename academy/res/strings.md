@@ -14,10 +14,6 @@ micro_nav: false
 
 ---
 
-## String resources
-
-When it comes to accessing string resources, Jetpack Compose offers the following functionalities.
-
 ## Accessing a string resource
 
 Using the **stringResource** function, a single string resource can be accessed.
