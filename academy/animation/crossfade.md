@@ -14,6 +14,8 @@ micro_nav: false
 
 ---
 
+## Construction
+
 When creating a crossfade animation there are three properties which can be provided:
 
 * **current** – the current state of the animation. When this is changed, the crossfade will be performed to this value

@@ -1,44 +1,21 @@
 ---
-
 # Page settings
-layout: default
+layout: homepage
 keywords:
-comments: false
 
 # Hero section
-title: Single Value Animation
-description: Used to create simple animations between single values
+title: Single Value
+description: Animate a single value
 
-# Micro navigation
-micro_nav: false
-
+# Grid navigation
+grid_navigation:
+    - title: Color
+      excerpt: Animate between color values
+      cta: View
+      url: '/academy/animation/color'
+    - title: Float
+      excerpt: Animate between float values
+      cta: View
+      url: '/academy/animation/float'
+      
 ---
-
-When it comes to single value animations, Jetpack Compose offers the following functionalities.
-
-## Color animation
-
-```kotlin
-val enabled = state { true }
-Clickable({ enabled.value = !enabled.value }) {
-    Stack {
-        Box(Modifier.fillMaxSize(), backgroundColor =
-        animate(if (enabled.value) Color.Green else Color.Red))
-        Text(text = "Click me to change color!")
-    }
-}
-```
-
-## Float animation
-
-```kotlin
-val enabled = state { true }
-Clickable({ enabled.value = !enabled.value }) {
-    Stack(modifier = Modifier.padding(
-      animate(if (enabled.value) 0f else 100f).dp)
-    ) {
-        Box(Modifier.fillMaxSize(), backgroundColor = Color.Green)
-        Text(text = "Click me to change padding!")
-    }
-}
-```
