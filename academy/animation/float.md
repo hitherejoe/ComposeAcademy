@@ -14,14 +14,14 @@ micro_nav: false
 
 ---
 
+## Construction
+
 When creating a single value float animation there are three properties which can be provided:
 
-* **target** – the current state of the animation. When this is changed, the crossfade will be performed to this value
+* **target** – the target value to be animated to
   * required
-* **animBuilder** – the animation used for the crossfade. By default this will be the tween animation
-* **endListener** – the child composables that are being animated
-
-## Float animation
+* **animBuilder** – the animation builder depicts ho the animation beteen the values will be performed
+* **endListener** – listen for when the animation has completed
 
 ```kotlin
 @Composable
@@ -31,6 +31,8 @@ fun animate(
     endListener: ((Float) -> Unit)? = null
 )
 ```
+
+## Example animation
 
 ```kotlin
 val enabled = state { true }
