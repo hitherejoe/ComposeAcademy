@@ -9,7 +9,7 @@ description: Components from the Animation package
 
 # Grid navigation
 grid_navigation:
- 	- title: Crossfade
+ 	  - title: Crossfade
       excerpt: Fade between states
       cta: View
       url: '/academy/animation/crossfade'
