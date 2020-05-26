@@ -4,22 +4,30 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Animation
-description: Components from the Animation package
+title: Core
+description: Components from the Core package
 
 # Grid navigation
 grid_navigation:
- 	  - title: Crossfade
-      excerpt: Fade between states
+    - title: Alignment
+      excerpt: Align composables in their container
       cta: View
-      url: '/academy/animation/crossfade'
-    - title: Single Value
-      excerpt: Animate a single value
+      url: '/academy/core/alignment'
+    - title: Gesture
+      excerpt: Detecting gestures on composables
       cta: View
-      url: '/academy/animation/singleValue'
-    - title: Transition
-      excerpt: Perform transitions between states
+      url: '/academy/core/gesture'
+    - title: Opacity
+      excerpt: Apply opacity to composables
       cta: View
-      url: '/academy/animation/transition'
+      url: '/academy/core/opacity'
+    - title: Popup
+      excerpt: Display a popup to the user
+      cta: View
+      url: '/academy/core/popup'
+    - title: Shadow
+      excerpt: Apply a shadow to composables
+      cta: View
+      url: '/academy/core/shadow'
       
 ---
