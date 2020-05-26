@@ -15,7 +15,7 @@ micro_nav: false
 
 ## Construction
 
-When creating a tween transition there are two properties which can be provided:
+When creating a tween transition there are three properties which can be provided:
 
 * **fromState** – the state that is being animated from
 * **toState** – the state that is being animated to

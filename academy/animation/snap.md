@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: Snap
-description: Used to create a snap transition animation
+description: Transition between states using a snap animation
 # Micro navigation
 micro_nav: false
 
@@ -15,7 +15,7 @@ micro_nav: false
 
 ## Construction
 
-When creating a single value float animation there are three properties which can be provided:
+When creating a snap transition there are two properties which can be provided:
 
 * **fromToPairs** – the pairs of states used for the transition
   * required
