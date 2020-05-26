@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: Arrangement
-description: When it comes to the layout of child components inside of their parents, it’s likely we’re going to want to arrange them in some way on both the horizontal and/or vertical axis. The Arrangement interface provides us with the ability to declare how the children of our containers should be laid out
+description: Declare how the children should be laid out within their parent containers
 
 # Micro navigation
 micro_nav: false
@@ -15,6 +15,8 @@ micro_nav: false
 ---
 
 ## Interface
+
+There are three interfaces which are used to define the available Arrangment values.
 
 ```kotlin
 interface Arrangement

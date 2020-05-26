@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: AndroidView
-description: Used to declare the use of Android views within composables
+description: Declare the use of Android views within composables
 
 # Micro navigation
 micro_nav: false
@@ -31,7 +31,7 @@ fun AndroidView(
 }
 ```
 
-There are two available properties that we can pass to the AndroidView function:
+When using the AndroidView function there are two required properties:
 
 * **resId** – the id of the layout which we wish to inflate
   * required

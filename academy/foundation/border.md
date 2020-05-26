@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: Border
-description: Used to apply a border to the specified composable
+description: Apply a border to the specified composable
 
 # Micro navigation
 micro_nav: false
@@ -31,7 +31,7 @@ data class Border(val size: Dp, val brush: Brush)
 
 ## Using the Border Function
 
-When calling the Border function we are required to pass two properties:
+When calling the Border function there are two required properties:
 
 * **size** – the thickness of the border
   * required
