@@ -9,25 +9,21 @@ description: Components from the Core package
 
 # Grid navigation
 grid_navigation:
-    - title: Alignment
+    - title: Color
       excerpt: Align composables in their container
       cta: View
-      url: '/academy/core/alignment'
-    - title: Gesture
+      url: '/academy/animation/color'
+    - title: Float
       excerpt: Detecting gestures on composables
       cta: View
-      url: '/academy/core/gesture'
-    - title: Opacity
+      url: '/academy/animation/float'
+    - title: Single Value
+      excerpt: Detecting gestures on composables
+      cta: View
+      url: '/academy/animation/singleValue'
+    - title: Transition
       excerpt: Apply opacity to composables
       cta: View
-      url: '/academy/core/opacity'
-    - title: Popup
-      excerpt: Display a popup to the user
-      cta: View
-      url: '/academy/core/popup'
-    - title: Shadow
-      excerpt: Apply a shadow to composables
-      cta: View
-      url: '/academy/core/shadow'
+      url: '/academy/animation/transition'
       
 ---
