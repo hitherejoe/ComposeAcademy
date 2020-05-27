@@ -16,6 +16,14 @@ micro_nav: false
 
 ## Constructor
 
+When using the Row function there are four avialable properties that can be provided:
+
+* **modifier** – the modifier to be applied to the composable
+* **horizontalArrangement** – the arrangement to be applied on the horizontal axis
+* **verticalGravity** – the gravity to be applied on the vertical axis
+* **children** – the child composables to be displayed inside of the Column
+  * required
+
 ```kotlin
 @Composable
 fun Row(
@@ -27,6 +35,8 @@ fun Row(
 ```
 
 ## Minimal row
+
+At the minimum, we can provide child composables to be displayed inside of the row:
 
 ```kotlin
 Row {
@@ -48,6 +58,8 @@ Row {
 ![Column](/academy/layout/media/row.png)
 
 ## Row with gravity
+
+Setting the gravity on the row will set the positioning of the children on the vertical axis
 
 ```kotlin
 Row(
@@ -72,6 +84,8 @@ Row(
 ![Row with gravity](/academy/layout/media/row_gravity.png)
 
 ## Row with arrangement
+
+Setting the arrangement on the row will set the positioning of the children on the horizontal axis
 
 ```kotlin
 Row(

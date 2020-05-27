@@ -16,6 +16,14 @@ micro_nav: false
 
 ## Constructor
 
+When using the Column function there are four avialable properties that can be provided:
+
+* **modifier** – the modifier to be applied to the composable
+* **verticalArrangement** – the arrangement to be applied on the vertical axis
+* **horizontalGravity** – the gravity to be applied on the horizontal axis
+* **children** – the child composables to be displayed inside of the Column
+  * required
+
 ```kotlin
 @Composable
 fun Column(
@@ -27,6 +35,8 @@ fun Column(
 ```
 
 ## Minimal column
+
+At the minimum, we can provide child composables to be displayed inside of the column:
 
 ```kotlin
 Column {
@@ -48,6 +58,8 @@ Column {
 ![Column](/academy/layout/media/column.png)
 
 ## Column with gravity
+
+Setting the gravity on the column will set the positioning of the children on the horizontal axis
 
 ```kotlin
 Column(
@@ -72,6 +84,8 @@ Column(
 ![Column with gravity](/academy/layout/media/column_gravity.png)
 
 ## Column with arrangement
+
+Setting the arrangement on the column will set the positioning of the children on the vertical axis
 
 ```kotlin
 Column(
