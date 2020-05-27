@@ -49,7 +49,7 @@ Box(
 
 ## Using the Border Class
     
-When using the Border class directly we are required to pass two properties:
+When using the Border class directly there are two required properties:
 
 * **size** – the thickness of the border
   * required

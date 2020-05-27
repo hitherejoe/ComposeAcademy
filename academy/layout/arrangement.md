@@ -19,10 +19,13 @@ micro_nav: false
 There are three interfaces which are used to define the available Arrangment values.
 
 ```kotlin
+// provides arrangement values available for all layout orientations
 interface Arrangement
 
+// provides Vertical specific arrangement values
 interface Vertical : Arrangement
 
+// provides Horizontal specific arrangement values
 interface Horizontal : Arrangement
 ```
 

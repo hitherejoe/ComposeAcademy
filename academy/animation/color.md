@@ -9,7 +9,7 @@ comments: false
 title: Single Value Animation
 description: Used to create simple animations between single values
 buttons:
- 	- icon: github
+ 	  - icon: github
       content: View in Playground
       url: 'https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/animation/singleValueColorAnimation.kt'
       external_url: true
