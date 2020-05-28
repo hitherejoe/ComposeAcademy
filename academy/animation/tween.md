@@ -8,12 +8,16 @@ comments: false
 # Hero section
 title: Tween
 description: Transition between states using a tween animation
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/animation/transitionAnimationDemos.kt"
+    external_url: true
+
 # Micro navigation
 micro_nav: false
 
 ---
-
-## Construction
 
 When creating a tween transition there are three properties which can be provided:
 

@@ -18,10 +18,6 @@ grid_navigation:
       cta: View
       url: '/academy/animation/tween'
     - title: Physics
-      excerpt: Single Value animations
-      cta: View
-      url: '/academy/animation/physics'
-    - title: Physics
       excerpt: Animate using pyhsics based properties
       cta: View
       url: '/academy/animation/physics'
