@@ -13,5 +13,9 @@ grid_navigation:
       excerpt: Create a border to outline views
       cta: View
       url: '/academy/foundation/border'
+    - title: Clickable
+      excerpt: Add click listeners to composables
+      cta: View
+      url: '/academy/foundation/clickable'
       
 ---

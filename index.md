@@ -65,13 +65,5 @@ grid_navigation:
       excerpt: Test your composables in an automated fashion using a variety of assertions
       cta: View
       url: '/academy/test/test'
-    - title: Tooling
-      excerpt: Components related to Tooling
-      cta: View
-      url: '/academy/tooling/tooling'
-    - title: Unit
-      excerpt: Components from the compose Unit package
-      cta: View
-      url: '/academy/unit/unit'
       
 ---
