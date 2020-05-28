@@ -8,13 +8,16 @@ comments: false
 # Hero section
 title: Border
 description: Apply a border to the specified composable
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/foundation/border.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false
 
 ---
-
-## Constructor
 
 There are two ways to create a new reference to a Border. The first is via the Border function:
 
