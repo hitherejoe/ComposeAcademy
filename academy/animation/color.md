@@ -12,7 +12,6 @@ buttons:
  	  - icon: github
       content: View in Playground
       url: 'https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/animation/singleValueColorAnimation.kt'
-      external_url: true
 
 # Micro navigation
 micro_nav: false
