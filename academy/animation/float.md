@@ -6,8 +6,13 @@ keywords:
 comments: false
 
 # Hero section
-title: Single Value Animation
-description: Used to create simple animations between single values
+title: Single Float Value Animation
+description: Used to create simple animations between single float values
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/animation/singleValueFloatAnimation.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false

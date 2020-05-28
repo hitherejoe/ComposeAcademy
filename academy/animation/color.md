@@ -6,8 +6,8 @@ keywords:
 comments: false
 
 # Hero section
-title: Single Value Animation
-description: Used to create simple animations between single values
+title: Single Color Value Animation
+description: Used to create simple animations between single color values
 buttons:
   - icon: github
     content: View in Playground
