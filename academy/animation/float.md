@@ -19,8 +19,6 @@ micro_nav: false
 
 ---
 
-## Construction
-
 When creating a single value float animation there are three properties which can be provided:
 
 * **target** – the target value to be animated to
