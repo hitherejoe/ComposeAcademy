@@ -18,8 +18,6 @@ micro_nav: false
 
 ---
 
-## Construction
-
 When creating a single value color animation there are three properties which can be provided:
 
 * **target** – the target value to be animated to
