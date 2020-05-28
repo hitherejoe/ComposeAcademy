@@ -8,13 +8,16 @@ comments: false
 # Hero section
 title: AndroidView
 description: Declare the use of Android views within composables
-
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/foundation/border.kt"
+    external_url: true
+    
 # Micro navigation
 micro_nav: false
 
 ---
-
-## Constructor
 
 There is a single constructor available for creating a new reference to a AndroidView component:
 

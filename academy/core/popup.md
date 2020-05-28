@@ -19,8 +19,6 @@ micro_nav: false
 
 ---
 
-## Constructor
-
 When creating a popup, there are a collection of properties that are available when  
 calling the Popup composable function.
 
