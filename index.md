@@ -37,10 +37,6 @@ grid_navigation:
       excerpt: Components from the compose Foundation package
       cta: View
       url: '/academy/foundation/foundation'
-    - title: Framework
-      excerpt: Components from the compose Framework package
-      cta: View
-      url: '/academy/framework/framework'
     - title: Graphics
       excerpt: Components from the compose Graphics package
       cta: View
