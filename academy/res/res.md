@@ -10,7 +10,7 @@ description: Components from the Res package
 
 # Grid navigation
 grid_navigation:
-	  - title: Color
+    - title: Color
       excerpt: Access color resource values
       cta: View
       url: '/academy/res/color'
