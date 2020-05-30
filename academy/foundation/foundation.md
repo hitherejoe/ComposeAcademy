@@ -17,5 +17,9 @@ grid_navigation:
       excerpt: Add click listeners to composables
       cta: View
       url: '/academy/foundation/clickable'
+    - title: Shape
+      excerpt: Create shapes for composable backgrounds
+      cta: View
+      url: '/academy/foundation/shape'
       
 ---
