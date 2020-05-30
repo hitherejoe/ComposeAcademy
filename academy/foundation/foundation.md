@@ -22,5 +22,9 @@ grid_navigation:
       excerpt: Create shapes for composable backgrounds
       cta: View
       url: '/academy/foundation/shape'
+    - title: Text
+      excerpt: Create componenets composed of textual content
+      cta: View
+      url: '/academy/foundation/text'
       
 ---
