@@ -53,10 +53,6 @@ grid_navigation:
       excerpt: Components from the compose Resource package
       cta: View
       url: '/academy/res/res'
-    - title: Text
-      excerpt: Components from the compose Text package
-      cta: View
-      url: '/academy/text/text'
     - title: Test
       excerpt: Test your composables in an automated fashion using a variety of assertions
       cta: View
