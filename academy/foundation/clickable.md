@@ -11,7 +11,7 @@ description: Listen for click events on composables
 buttons:
   - icon: github
     content: View in Playground
-    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/foundation/border.kt"
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/foundation/clickable.kt"
     external_url: true
 
 # Micro navigation
