@@ -17,6 +17,14 @@ grid_navigation:
       excerpt: Display an app bar at the bottom of the screen
       cta: View
       url: '/academy/material/bottomappbar'
+    - title: Bottom Navigation
+      excerpt: Display a navigation bar at the bottom of the screen
+      cta: View
+      url: '/academy/material/bottom_navigation'
+    - title: Button
+      excerpt: Display interactable actions in the form of a button
+      cta: View
+      url: '/academy/material/button'
     - title: Card
       excerpt: A surface area in the shape of a Card for housing content
       cta: View
