@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructors
+
 There is a single constructor available to create an Icon Button composable
 
 ```kotlin
@@ -37,6 +39,8 @@ fun IconButton(
 
 * **icon** – the icon to be displayed on the button
   * required
+
+## Examples
 
 ### Displaying an Icon Button
   

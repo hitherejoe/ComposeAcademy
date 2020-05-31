@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-## Constructor
+## Constructors
 
 There is a single constructor available for creating a  
 new reference to a Checkbox component:
@@ -30,11 +30,6 @@ fun Checkbox(
 )
 ```
 
-## Declaring a Checkbox
-
-There are five available properties that we can pass to the Checkbox  
-function:
-
 * **checked** – whether or not the checkbox is currently checked
   * required
 * **onCheckedChange** – a callback that will receive change events  
@@ -43,6 +38,8 @@ for when the checkbox selected state changes
 * **modifier** – the modifier(s) to be applied to the checkbox
 * **color** – the color to be used for the checkbox. If not provided,  
 then the secondary color from the application theme will be applied
+
+## Examples
 
 ### Simple checkbox
 

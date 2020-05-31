@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructors
+
 There is a single conctructor available to create a Divider composable
 
 ```kotlin
@@ -38,6 +40,8 @@ fun Divider(
 * **thickness** – thickness to be used for the divider
 
 * **startIndent** – indentation to be applied to the start of the divider
+
+## Examples
 
 ### Minimal Button
   

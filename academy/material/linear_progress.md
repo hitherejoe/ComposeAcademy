@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructor
+
 There is a single constructor available to create a linear progress composable
 
 ```kotlin
@@ -32,6 +34,8 @@ fun LinearProgressIndicator(
 * **modifier** – modifier to be applied
 
 * **color** – the color to be used for the indicator
+
+## Examples
 
 ### Minimal Progress Indicator
   

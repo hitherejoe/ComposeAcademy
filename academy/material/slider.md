@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructors
+
 There is a single conctructor available to create a Scaffold composable
 
 ```kotlin
@@ -47,6 +49,8 @@ fun Slider(
 * **onValueChangeEnd** – callback triggered when value selection has completed. E.g the slider is not being dragged, with the value representing the final state of the slide
 
 * **color** – the color to be used for the slider
+
+## Examples
 
 ### Minimal slider
   

@@ -4,14 +4,14 @@ layout: default
 keywords:
 comments: false
 title: Snackbar
-description: Snackbars provide us with a wya to show short, non-blocking alerts to the user. Usually displayed at the bottom of the screen, these components can also provide a single action for the user to take in the context of the given message.
+description: Display short, non-blocking alerts to the userwith an optional action
 
 # Micro navigation
 micro_nav: false
 
 ---
 
-## Constructor
+## Constructors
 
 There is a single constructor available for creating a new reference to a Snackbar:
 
@@ -25,10 +25,6 @@ fun Snackbar(
 )
 ```
 
-## Declaring a Snackbar
-
-There are four available properties that we can pass to the Snackbar function:
-
 * **text** – the text to be displayed within the snackbar
   * required
 * **action** – an action, in the form of a composable, to be displayed  
@@ -36,6 +32,8 @@ within the snackbar
 * **modifier** – the modifier(s) to be applied to the snackbar
 * **actionOnNewLine** – declares whether the action text should be  
 displayed on a new line
+
+## Examples
 
 ### Minimal snackbar
 

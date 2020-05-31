@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructors
+
 There is a single conctructor available to create a circular progress composable
 
 ```kotlin
@@ -35,6 +37,8 @@ fun CircularProgressIndicator(
 * **color** – the color to be used for the indicator
 
 * **strokeWidth** – the width to be used for the indicator stroke
+
+## Examples
 
 ### Minimal Progress Indicator
   

@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructors
+
 There is a single conctructor available to create a Button composable
 
 ```kotlin
@@ -67,6 +69,8 @@ fun Button(
 
 * **text** – composable to be used for the content of the button
   * required
+
+## Examples
 
 ### Minimal Button
   

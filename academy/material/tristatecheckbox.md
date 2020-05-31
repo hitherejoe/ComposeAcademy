@@ -27,11 +27,6 @@ fun TriStateCheckbox(
 )
 ```
 
-## Declaring a Tri-state checkbox
-
-There are five available properties that we can pass to  
-the Tri-state checkbox function:
-
 * **state** – whether or not the checkbox is currently checked. 
 This is required
 * **onClick** – a callback that will receive change events for when  
@@ -42,7 +37,9 @@ the checkbox selected state changes.
 * **color** – the color to be used for the checkbox. If not provided,  
 then the secondary color from the application theme will be applied
 
-## Toggle state
+## Examples
+
+### Toggle state
 
 ```kotlin
 enum class ToggleableState {
@@ -52,7 +49,7 @@ enum class ToggleableState {
 }
 ```
 
-## Basic tri-state checkbox
+### Basic tri-state checkbox
 
 ```kotlin
 TriStateCheckbox(
@@ -81,7 +78,7 @@ TriStateCheckbox(
 
 ![Unchecked checkbox](/academy/material/media/tristate_checkbox_off.png)
 
-## Colored checkbox
+### Colored checkbox
 
 ```kotlin
 TriStateCheckbox(
@@ -92,7 +89,7 @@ TriStateCheckbox(
 
 ![Colored checkbox](/academy/material/media/tristate_checkbox_colored.png)
 
-## Handling check state
+### Handling check state
 
 ```kotlin
 @Model

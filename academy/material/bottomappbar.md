@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructors
+
 There is a single conctructor available to create a Bottom App Bar composable
 
 ```kotlin
@@ -45,6 +47,8 @@ fun BottomAppBar(
 * **fabConfiguration** – the positioning of the FAB
 
 * **cutoutShape** – the shape to cutout for the placement of the FAB
+
+## Examples
 
 ### Minimal Bottom App Bar
   

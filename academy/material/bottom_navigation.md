@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructors
+
 There is a single conctructor available to create a Bottom Navigation composable
 
 ```kotlin
@@ -55,6 +57,8 @@ fun BottomNavigation(
 * **contentColor** – the color to be applied to the content inside the composable
 
 * **elevation** – elevation to be applied to the bar
+
+## Examples
 
 ### Navigation Items
 

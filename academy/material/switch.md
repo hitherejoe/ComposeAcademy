@@ -11,7 +11,7 @@ micro_nav: false
 
 ---
 
-## Constructor
+## Constructors
 
 There is a single constructor available for creating a new reference to a Switch:
 
@@ -25,10 +25,6 @@ fun Switch(
 )
 ```
 
-## Declaring a Switch
-
-There are four available properties that we can pass to the Switch function:
-
 * **checkedt** – whether or not the switch is currently checked. This is required
 * **onCheckedChanget** – a callback that will receive change events for  
 when the selected state of the component changes  
@@ -38,7 +34,9 @@ changes.
 * **colort** – the color to be used for the component. If not provided,  
 then the secondary color from the application theme will be applied
 
-## Basic switch
+## Examples
+
+### Basic switch
 
 ```kotlin
 Switch(
@@ -59,7 +57,7 @@ Switch(
 
 ![Unchecked switch](/academy/material/media/switch_unchecked.png)
 
-## Colored switch
+### Colored switch
 
 ```kotlin
 Switch(
@@ -71,7 +69,7 @@ Switch(
 
 ![Colored switch](/academy/material/media/switch_colored.png)
 
-## Handled checked state
+### Handled checked state
 
 ```kotlin
 @Model

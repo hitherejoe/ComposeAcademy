@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructors
+
 There is a single conctructor available to create a Text Field composable
 
 ```kotlin
@@ -67,6 +69,8 @@ fun TextField(
 * **onTextInputStarted** – callback triggered when text input has begun
 
 * **cursorColor** – color to be used for the text field cursor
+
+## Examples
 
 ### Text Field Value
 

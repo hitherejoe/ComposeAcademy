@@ -28,10 +28,6 @@ fun RadioButton(
 )
 ```
 
-## Declaring a Radio Button
-
-There are three available properties that we can pass to the Checkbox function:
-
 * **selected** – whether or not the button is currently selected
   * required
 * **onSelect** – a callback that will receive change events for when the  
@@ -40,7 +36,9 @@ selected state of the component changes changes
 * **color** – the color to be used for the radio button. If not provided,  
 then the secondary color from the application theme will be applied
 
-## Simple Radio Button with label
+## Examples
+
+### Simple Radio Button with label
 
 ```kotlin
 Row {
@@ -70,7 +68,7 @@ Row {
 
 ![Selected radio button](/academy/material/media/selected_radiobutton.png)
 
-## Handling selection changes
+### Handling selection changes
 
 Whilst the above looks great, statically defining the checked value, along  
 with not reacting to state changed events, doesn’t really resemble how we  
@@ -114,7 +112,7 @@ fun RadioButtonWithLabel(
 }
 ```
 
-## Styled Radio Button
+### Styled Radio Button
 
 ```kotlin
 Row {

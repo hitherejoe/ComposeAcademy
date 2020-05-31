@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructor
+
 There is a single conctructor available to create a Scaffold composable
 
 ```kotlin
@@ -48,6 +50,8 @@ fun Scaffold(
 
 * **bodyContent** – main body content to be displayed within the scaffold
   * required
+
+## Examples
 
 ### Scaffold with Floating Action Button
   
