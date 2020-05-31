@@ -9,6 +9,14 @@ description: Components from the Material package
 
 # Grid navigation
 grid_navigation:
+    - title: Alert Dialog
+      excerpt: Display a pop-up alert dialog
+      cta: View
+      url: '/academy/material/alert_dialog'
+    - title: Bottom App Bar
+      excerpt: Display an app bar at the bottom of the screen
+      cta: View
+      url: '/academy/material/bottomappbar'
     - title: Card
       excerpt: A surface area in the shape of a Card for housing content
       cta: View
