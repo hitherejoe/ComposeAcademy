@@ -6,8 +6,8 @@ keywords:
 comments: false
 
 # Hero section
-title: Topp App Bat
-description: Select a value from a range using a sliding component
+title: Top App Bar
+description: Display an Application Bar with optional navigational components
 buttons:
   - icon: github
     content: View in Playground
@@ -19,7 +19,9 @@ micro_nav: false
 
 ---
 
-There are two conctructors available to create a Top App Bar composable
+There are two conctructors available to create a Top App Bar composable.
+
+The first constructor takes a collection of properties split out into individual parameters:
 
 ```kotlin
 @Composable
@@ -49,6 +51,8 @@ fun TopAppBar(
 
 * **elevation** – elevation to be applied
 
+The second compresses these individual parameters into a single content parameter:
+
 ```kotlin
 @Composable
 fun TopAppBar(
@@ -69,6 +73,8 @@ fun TopAppBar(
 * **elevation** – elevation to be applied
 
 * **content** – content to be displayed
+
+## Examples
 
 ### Minimal Top App Bar
   
