@@ -9,8 +9,12 @@ title: Compose Academy
 description: Snippets and guides for Jetpack Compose on the Android platform
 buttons:
   - icon: github
-    content: Sponser & Star
+    content: Star on GitHub
     url: 'https://github.com/hitherejoe/ComposeAcademy'
+    external_url: true
+  - icon: heart
+    content: Sponser / Donate
+    url: 'https://github.com/hitherejoe/ComposeAcademy/blob/master/README.md#support-the-project-%EF%B8%8F-%EF%B8%8F'
     external_url: true
   - content: Playground App
     url: 'https://github.com/hitherejoe/ComposeAcademy-Playground'
