@@ -19,17 +19,20 @@ micro_nav: false
 
 ---
 
-When creating a keyframe transition there are three properties which can be provided:
-
-* **fromState** – the state that is being animated from
-* **toState** – the state that is being animated to
-* **init** – the specification used to define our transition
+## Constructors
 
 ```kotlin
 fun transition(fromState: T? = null, toState: T? = null, init: TransitionSpec<T>.() -> Unit) {
     transition(fromState to toState, init = init)
 }
 ```
+
+* **fromState** – the state that is being animated from
+
+* **toState** – the state that is being animated to
+
+* **init** – the specification used to define our transition
+
 
 For this transiton, the physics animation builder will be used. This builder allows us to set pairs that consist of both the value for the animation and the timestamp at when that value should be reached.
 
@@ -53,7 +56,7 @@ sizeState using keyframes<Float> {
 }
 ```
 
-## Example keyframe animation
+## Examples
 
 ```kotlin
 val sizeState = FloatPropKey()

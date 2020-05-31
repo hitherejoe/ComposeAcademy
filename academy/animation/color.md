@@ -19,12 +19,7 @@ micro_nav: false
 
 ---
 
-When creating a single value color animation there are three properties which can be provided:
-
-* **target** – the target value to be animated to
-  * required
-* **animBuilder** – the animation builder depicts ho the animation beteen the values will be performed
-* **endListener** – listen for when the animation has completed
+## Constructors
 
 ```kotlin
 @Composable
@@ -35,7 +30,14 @@ fun animate(
 )
 ```
 
-## Example animation
+* **target** – the target value to be animated to
+  * required
+
+* **animBuilder** – the animation builder depicts ho the animation beteen the values will be performed
+
+* **endListener** – listen for when the animation has completed
+
+## Examples
 
 ```kotlin
 val enabled = state { true }

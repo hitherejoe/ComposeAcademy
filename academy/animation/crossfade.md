@@ -14,15 +14,7 @@ micro_nav: false
 
 ---
 
-## Construction
-
-When creating a crossfade animation there are three properties which can be provided:
-
-* **current** – the current state of the animation. When this is changed, the crossfade will be performed to this value
-  * required
-* **animation** – the animation used for the crossfade. By default this will be the tween animation
-* **children** – the child composables that are being animated
-  * required
+## Constructors
 
 ```kotlin
 @Composable
@@ -33,7 +25,15 @@ fun <T> Crossfade(
 )
 ```
 
-## Animate between states
+* **current** – the current state of the animation. When this is changed, the crossfade will be performed to this value
+  * required
+
+* **animation** – the animation used for the crossfade. By default this will be the tween animation
+
+* **children** – the child composables that are being animated
+  * required
+
+## Examples
 
 ```kotlin
 val strings = listOf("This the first text", "This is the second text")
