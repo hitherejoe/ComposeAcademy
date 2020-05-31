@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: Button
-description: Diplay interactable actions in the form of a button
+description: Display interactable actions in the form of a button
 buttons:
   - icon: github
     content: View in Playground
