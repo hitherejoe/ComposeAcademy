@@ -6,10 +6,10 @@
 .hero-subheader-default {
 	color: $color-dark-blue;
 	background-color: $color-theme-blue;
-	padding: 8rem 0 (2.25rem) 0;
+	padding: 3.75rem 0 (4.6875rem - 1.25rem) 0;
 
 	@media (min-width: $screen-sm-min) {
-		padding: 8rem 0 (2.25rem) 0;
+		padding: 9.375rem 0 (10.3125rem - 1.25rem) 0;
 	}
 
 	.btn {
@@ -22,10 +22,10 @@
 	}
 
 	.site-header + & {
-		padding: 8rem 0 (2.25rem) 0;
+		padding: 9.375rem 0 (4.6875rem - 1.25rem) 0;
 
 		@media (min-width: $screen-sm-min) {
-			padding: 8rem 0 (2.25rem) 0;
+			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
 		}
 	}
 }
