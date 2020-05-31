@@ -6,12 +6,12 @@ keywords:
 comments: false
 
 # Hero section
-title: Bottom App Bar
-description: Display an app bar at the bottom of the screen
+title: Floating Action Button
+description: Display a button in the form of a Floating Action Button
 buttons:
   - icon: github
     content: View in Playground
-    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/material/bottomAppBar.kt"
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/material/floatingActionButton.kt"
     external_url: true
 
 # Micro navigation

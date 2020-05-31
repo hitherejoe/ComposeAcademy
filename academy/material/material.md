@@ -37,6 +37,18 @@ grid_navigation:
       excerpt: Display a seperator to divide content 
       cta: View
       url: '/academy/material/divider'
+    - title: Floating Action Button
+      excerpt: Display a button in the form of a Floating Action Button
+      cta: View
+      url: '/academy/material/floatingActionButton'
+    - title: Icon Button
+      excerpt: Display a button with an icon for the content
+      cta: View
+      url: '/academy/material/icon_button'
+    - title: Progress
+      excerpt: Display a progress indicator
+      cta: View
+      url: '/academy/material/progress'
     - title: TriState Checkbox
       excerpt: Used for a toggleable state in the form of a check mark, with the addition of an intermediate checked state
       cta: View
