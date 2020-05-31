@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructors
+
 ```kotlin
 @Immutable
 data class TextStyle(
@@ -61,6 +63,8 @@ data class TextStyle(
 * **textDirectionAlgorithm** – the algorithm to resolve the final text and paragraph direction
 * **lineHeight** – line height applied to the text paragraph
 * **textIndent** - indentation to be applied to the text paragraph
+
+## Examples
 
 ### Using Text Style
   

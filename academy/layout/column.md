@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-## Constructor
+## Constructors
 
 When using the Column function there are four avialable properties that can be provided:
 
@@ -34,7 +34,9 @@ fun Column(
 )
 ```
 
-## Minimal column
+## Examples
+
+### Minimal column
 
 At the minimum, we can provide child composables to be displayed inside of the column:
 
@@ -57,7 +59,7 @@ Column {
 
 ![Column](/academy/layout/media/column.png)
 
-## Column with gravity
+### Column with gravity
 
 Setting the gravity on the column will set the positioning of the children on the horizontal axis
 
@@ -83,7 +85,7 @@ Column(
 
 ![Column with gravity](/academy/layout/media/column_gravity.png)
 
-## Column with arrangement
+### Column with arrangement
 
 Setting the arrangement on the column will set the positioning of the children on the vertical axis
 

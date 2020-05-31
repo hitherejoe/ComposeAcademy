@@ -19,8 +19,6 @@ micro_nav: false
 
 ---
 
-Shapes can be used to provide specifically shaped backgrounds for composables. There are a collection of ways in which these shapes can be customised.
-
 ## Cut Corner Shape
 
 A cut corner shape cuts the corners based on the provided values. A CutCornerShape can be created by using on of the provided approaches defined below. 

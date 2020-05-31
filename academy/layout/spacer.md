@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-## Constructor
+## Constructors
 
 The spacer comes with a single constructor that can be used to create a new instance of a Spacer. 
 
@@ -28,7 +28,9 @@ There is a single available property that we can pass to this function:
 * **modifier** – the modifier(s) to be applied to the Spacer instance
   * required
 
-## Creating a spacer
+## Examples
+
+### Creating a spacer
 
 When creating a spacer we make use of its modifiers to declare the space that it should occupy. For example, we can create a spacer with a specified height using the preferredHeight modifier.
 

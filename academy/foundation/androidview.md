@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Contructors
+
 There is a single constructor available for creating a new reference to a AndroidView component:
 
 ```kotlin
@@ -40,6 +42,8 @@ When using the AndroidView function there are two required properties:
   * required
 * **postInflationCallback** – a callback for when the view has been inflated
   * required
+
+## Examples
 
 ### Building an AndroidView
 

@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-## Constructor
+## Constructors
 
 When using the Row function there are four avialable properties that can be provided:
 
@@ -34,7 +34,9 @@ fun Row(
 )
 ```
 
-## Minimal row
+## Examples
+
+### Minimal row
 
 At the minimum, we can provide child composables to be displayed inside of the row:
 
@@ -57,7 +59,7 @@ Row {
 
 ![Column](/academy/layout/media/row.png)
 
-## Row with gravity
+### Row with gravity
 
 Setting the gravity on the row will set the positioning of the children on the vertical axis
 
@@ -83,7 +85,7 @@ Row(
 
 ![Row with gravity](/academy/layout/media/row_gravity.png)
 
-## Row with arrangement
+### Row with arrangement
 
 Setting the arrangement on the row will set the positioning of the children on the horizontal axis
 

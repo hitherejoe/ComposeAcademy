@@ -14,7 +14,7 @@ micro_nav: false
 
 ---
 
-## Constructor
+## Constructors
 
 ```kotlin
 fun Stack(
@@ -35,7 +35,9 @@ class StackScope {
 }
 ```
 
-## Stack with relative children
+## Examples
+
+### Stack with relative children
 
 ```kotlin
 Stack(modifier = Modifier.fillMaxSize()) {
@@ -63,7 +65,7 @@ Stack(modifier = Modifier.fillMaxSize()) {
 
 ![Stack with relative children](/academy/layout/media/stack_children.png)
 
-## Stack with overlapping children
+### Stack with overlapping children
 
 ```kotlin
 Stack(modifier = Modifier.fillMaxSize()) {

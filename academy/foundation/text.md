@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+## Constructors
+
 ```kotlin
 @Composable
 fun Text(
@@ -56,6 +58,8 @@ fun Text(
 * **maxLines** – the maximum number of lines allowed for text
 * **onTextLayout** – callback to be triggered when text layout has completed
 * **style** – the style to be applied to the text
+
+## Examples
 
 ### Displaying text
   
