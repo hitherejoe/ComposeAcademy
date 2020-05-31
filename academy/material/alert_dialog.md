@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: Alert Dialog
-description: Display an pop-up alert dialog
+description: Display a pop-up alert dialog
 buttons:
   - icon: github
     content: View in Playground
@@ -18,6 +18,8 @@ buttons:
 micro_nav: false
 
 ---
+
+There is a two conctructors available to create an Alert Dialog composable
 
 ```kotlin
 @Composable

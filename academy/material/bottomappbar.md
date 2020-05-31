@@ -19,6 +19,8 @@ micro_nav: false
 
 ---
 
+There is a single conctructor available to create a Bottom App Bar composable
+
 ```kotlin
 @Composable
 fun BottomAppBar(
@@ -70,7 +72,7 @@ BottomAppBar(
 ```
 
 
-### Bottom App Bar ith FAB
+### Bottom App Bar with FAB
 
 ```kotlin
 Scaffold(
