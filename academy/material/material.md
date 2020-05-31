@@ -33,6 +33,10 @@ grid_navigation:
       excerpt: Used for a toggleable state in the form of a check mark 
       cta: View
       url: '/academy/material/checkbox'
+    - title: Divider
+      excerpt: Display a seperator to divide content 
+      cta: View
+      url: '/academy/material/divider'
     - title: TriState Checkbox
       excerpt: Used for a toggleable state in the form of a check mark, with the addition of an intermediate checked state
       cta: View
