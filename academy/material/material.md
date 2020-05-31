@@ -1,4 +1,5 @@
 ---
+
 # Page settings
 layout: homepage
 keywords:
@@ -73,7 +74,7 @@ grid_navigation:
       excerpt: Used to displayed a toggleable state in the form of a switch
       cta: View
       url: '/academy/material/switch'
-     - title: Top App Bar
+    - title: Top App Bar
       excerpt: Display an Application Bar with optional navigational components
       cta: View
       url: '/academy/material/top_app_bar'
