@@ -47,16 +47,18 @@ fun BottomNavigation(
 
 * **modifier** – modifier to be applied
 
-* **content** – the content to be displayed inside of the bottom app bar
+* **content** – content to be displayed inside of the navigation bar
   * required
 
-* **backgroundColor** – the background color to be applied
+* **backgroundColor** – color used for the background of the composable
 
 * **contentColor** – the color to be applied to the content inside the composable
 
-* **fabConfiguration** – the positioning of the FAB
+* **elevation** – elevation to be applied to the bar
 
-* **cutoutShape** – the shape to cutout for the placement of the FAB
+### Navigation Items
+
+When it comes to creating a bottom navigation bar, we need to provide the items that we wish to display. This is done using the BottomNavigtionitem composable:
 
 ```kotlin
 @Composable
@@ -72,18 +74,24 @@ fun BottomNavigationItem(
 )
 ```
 
-* **modifier** – modifier to be applied
+* **icon** – the icon to be displayed for the item
 
-* **content** – the content to be displayed inside of the bottom app bar
+* **text** – the text to be displayed for the item
   * required
 
-* **backgroundColor** – the background color to be applied
+* **selected** – current selection state for the item
+  * required
 
-* **contentColor** – the color to be applied to the content inside the composable
+* **onSelected** – callback triggered when the item becomes selected
+  * required
 
-* **fabConfiguration** – the positioning of the FAB
+* **modifier** – modifier to be applied to the navigation item
 
-* **cutoutShape** – the shape to cutout for the placement of the FAB
+* **alwaysShowLabels** – whether or not labels should always be shown for the item
+
+* **activeColor** – color to be used for active content (e.g selected item)
+
+* **inactiveColor** – color to be used for inactive content (e.g unselected item)
 
 ### Minimal Bottom App Bar
   
