@@ -12,8 +12,7 @@ buttons:
     content: Star
     url: 'https://github.com/hitherejoe/ComposeAcademy'
     external_url: true
-  - icon: heart
-    content: Donate
+  - content: Donate
     url: 'https://github.com/hitherejoe/ComposeAcademy/blob/master/README.md#support-the-project-%EF%B8%8F-%EF%B8%8F'
     external_url: true
   - content: App
