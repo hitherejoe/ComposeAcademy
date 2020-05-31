@@ -19,22 +19,21 @@ micro_nav: false
 
 ---
 
-You can apply a shadow to a compasable by applying the shadow modifier. When applying the shadow modifier you will need to provide:
-
-  * **elevation** - the elevation to be applied when drawing the shadow
-
-  * **shape** - the shape to be applied when drawing the shadow
-
-  * **clipToOutline** - whether or not the shadow should be clipped to the outline  
-  of the shape
-
-  * **opacity** - the opacity to be applied when drawing the shadow
+## Constructors
 
 ```kotlin
 Modifier.drawShadow(12.dp, RectangleShape)
 ```
 
-## Example
+  * **elevation** - the elevation to be applied when drawing the shadow
+
+  * **shape** - the shape to be applied when drawing the shadow
+
+  * **clipToOutline** - whether or not the shadow should be clipped to the outline  of the shape
+
+  * **opacity** - the opacity to be applied when drawing the shadow
+
+## Examples
 
 ```kotlin
 Box(

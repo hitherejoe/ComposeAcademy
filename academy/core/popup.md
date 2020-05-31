@@ -19,16 +19,7 @@ micro_nav: false
 
 ---
 
-When creating a popup, there are a collection of properties that are available when  
-calling the Popup composable function.
-
-* **alignment** - the alignment of the popup composable within its container
-
-* **offset** - the offset to be applied to the popup
-
-* **popupProperties** - the additional properties to be applied to the popup
-
-* **children** - the child composables to be displayed within the popup
+## Constructors
 
 ```kotlin
 @Composable
@@ -40,7 +31,18 @@ fun Popup(
 )
 ```
 
-## Creating a standard popup
+* **alignment** - the alignment of the popup composable within its container
+
+* **offset** - the offset to be applied to the popup
+
+* **popupProperties** - the additional properties to be applied to the popup
+
+* **children** - the child composables to be displayed within the popup
+
+
+## Examples 
+
+### Creating a standard popup
 
 At a minimum, a Popup can be created by providing a child component that we  
 wish to display as the composable content.
@@ -61,7 +63,7 @@ Popup {
 }
 ```
 
-## Popup properties
+### Popup properties
 
 Above we saw the mention of the PopupProperties class - this allows us to provide  
 some additional properties for the popup. Currently the class supports two 
@@ -80,7 +82,7 @@ data class PopupProperties(
 )
 ```
 
-## Creating a dropdown popup
+### Creating a dropdown popup
 
 The Dropdown Popup can be used when we wish to offset the popup to be displayed  
 in a dropdown format. The Dropdown popup provides several additional properties  
