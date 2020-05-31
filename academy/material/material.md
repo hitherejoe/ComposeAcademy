@@ -53,6 +53,10 @@ grid_navigation:
       excerpt: Construct a material design layout structure
       cta: View
       url: '/academy/material/scaffold'
+    - title: Slider
+      excerpt: Select a value from a range using a sliding component
+      cta: View
+      url: '/academy/material/slider'
     - title: TriState Checkbox
       excerpt: Used for a toggleable state in the form of a check mark, with the addition of an intermediate checked state
       cta: View
