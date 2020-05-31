@@ -62,10 +62,6 @@ grid_navigation:
       excerpt: Select a value from a range using a sliding component
       cta: View
       url: '/academy/material/slider'
-    - title: TriState Checkbox
-      excerpt: Used for a toggleable state in the form of a check mark, with the addition of an intermediate checked state
-      cta: View
-      url: '/academy/material/tristatecheckbox'
     - title: Snackbar
       excerpt: Used to display short, non-blocking & dismissable messages on screen
       cta: View
@@ -74,6 +70,10 @@ grid_navigation:
       excerpt: Display a toggleable component in the form of a switch
       cta: View
       url: '/academy/material/switch'
+    - title: TriState Checkbox
+      excerpt: Used for a toggleable state in the form of a check mark, with the addition of an intermediate checked state
+      cta: View
+      url: '/academy/material/tristatecheckbox'
     - title: Top App Bar
       excerpt: Display an Application Bar with optional navigational components
       cta: View
