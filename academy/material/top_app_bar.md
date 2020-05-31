@@ -21,9 +21,7 @@ micro_nav: false
 
 ## Constructors
 
-There are two conctructors available to create a Top App Bar composable.
-
-The first constructor takes a collection of properties split out into individual parameters:
+### Contracted Content
 
 ```kotlin
 @Composable
@@ -53,7 +51,7 @@ fun TopAppBar(
 
 * **elevation** – elevation to be applied
 
-The second compresses these individual parameters into a single content parameter:
+### Composed Content
 
 ```kotlin
 @Composable
