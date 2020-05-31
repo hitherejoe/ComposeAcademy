@@ -13,7 +13,7 @@ If there is something missing you'd like documented, please feel free to add an 
 
 ## Support the project 🙇‍♂️ 🙇‍♀️
 
-If you are able to [sponser this project](https://github.com/sponsors/hitherejoe), all money will be dispersed to different charitable organisations.
+If you are able to [sponsor this project](https://github.com/sponsors/hitherejoe), all money will be dispersed to different charitable organisations.
 
 If you want to make a one-off contribution, please do so to one of the following and let me know so that I can add you to the supporters section 🙂
 
