@@ -38,6 +38,10 @@ grid_navigation:
       excerpt: Display a seperator to divide content 
       cta: View
       url: '/academy/material/divider'
+    - title: Filled Text Field
+      excerpt: Display a text field for textual input with a filled background
+      cta: View
+      url: '/academy/material/filledTextField'
     - title: Floating Action Button
       excerpt: Display a button in the form of a Floating Action Button
       cta: View
@@ -62,10 +66,6 @@ grid_navigation:
       excerpt: Used for a toggleable state in the form of a check mark, with the addition of an intermediate checked state
       cta: View
       url: '/academy/material/tristatecheckbox'
-    - title: Radio Button
-      excerpt: Used for selectable options in a group of items
-      cta: View
-      url: '/academy/material/radiobutton'
     - title: Snackbar
       excerpt: Used to display short, non-blocking & dismissable messages on screen
       cta: View
