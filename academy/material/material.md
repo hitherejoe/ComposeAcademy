@@ -71,7 +71,7 @@ grid_navigation:
       cta: View
       url: '/academy/material/snackbar'
     - title: Switch
-      excerpt: Used to displayed a toggleable state in the form of a switch
+      excerpt: Display a toggleable component in the form of a switch
       cta: View
       url: '/academy/material/switch'
     - title: Top App Bar

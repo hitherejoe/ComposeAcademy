@@ -3,8 +3,15 @@
 layout: default
 keywords:
 comments: false
+
+# Hero section
 title: Snackbar
 description: Display short, non-blocking alerts to the userwith an optional action
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/material/snackbar.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false

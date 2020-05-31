@@ -1,10 +1,18 @@
 ---
+
 # Page settings
 layout: default
 keywords:
 comments: false
+
+# Hero section
 title: Switch
-description: 
+description: A toggleable component in the form of an on/off switch
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/material/switch.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false

@@ -7,7 +7,12 @@ comments: false
 
 # Hero section
 title: Radio Button
-description: The Radio Button allows our users to make a selection from a group of available options - usually in cases where at least one of the options is required. This essentially allows the toggling between the different radio buttons that are on show, creating a sense of a required selection from a set of options. 
+description: Make a selection from a group of available options
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/material/radioButton.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false

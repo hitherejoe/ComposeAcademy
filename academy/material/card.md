@@ -11,7 +11,7 @@ description: Display a pop-up alert dialog
 buttons:
   - icon: github
     content: View in Playground
-    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/material/alertDialog.kt"
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/material/card.kt"
     external_url: true
 
 # Micro navigation

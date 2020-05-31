@@ -19,7 +19,7 @@ micro_nav: false
 
 ---
 
-## Constructor
+## Constructors
 
 There is a single conctructor available to create a Scaffold composable
 
