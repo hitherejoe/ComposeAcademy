@@ -21,7 +21,7 @@ micro_nav: false
 
 ## Constructors
 
-There are two ways to create a new reference to a Border. The first is via the Border function:
+### Function
 
 ```kotlin
 fun Border(size: Dp, color: Color) = Border(size, SolidColor(color))
@@ -33,7 +33,7 @@ fun Border(size: Dp, color: Color) = Border(size, SolidColor(color))
 * **color** – the Color to be used for the border
   * required
 
-The second by directly instantiating the Border class.
+### Class
 
 ```kotlin
 @Immutable
