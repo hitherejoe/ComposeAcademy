@@ -49,8 +49,6 @@ Checkbox(
 
 ![Checkbox](/academy/material/media/checkbox.png)
 
-## Handling check changes
-
 ### Styled checkbox
 
 ```kotlin
