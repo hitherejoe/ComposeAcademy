@@ -61,6 +61,8 @@ BottomAppBar {
 }
 ```
 
+![Alert dialog](/academy/material/media/bottom_app_bar.png)
+
 ### Styled Bottom App Bar
   
 ```kotlin
@@ -75,6 +77,7 @@ BottomAppBar(
 }
 ```
 
+![Alert dialog](/academy/material/media/bottom_app_bar_styled.png)
 
 ### Bottom App Bar with FAB
 
@@ -101,3 +104,5 @@ Scaffold(
         bodyContent()
     })
 ```
+
+![Alert dialog](/academy/material/media/bottom_app_fab.png)

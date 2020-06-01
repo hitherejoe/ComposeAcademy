@@ -110,3 +110,5 @@ if (showingDialog.value) {
         })
 }
 ```
+
+![Alert dialog](/academy/material/media/alert_dialog.png)

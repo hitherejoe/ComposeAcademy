@@ -63,6 +63,8 @@ Card {
 }
 ```
 
+![Alert dialog](/academy/material/media/card.png)
+
 ### Card with Multiple Children
   
 ```kotlin
@@ -82,6 +84,8 @@ Card {
 }
 ```
 
+![Alert dialog](/academy/material/media/card_children.png)
+
 ### Card with Shape Background
   
 ```kotlin
@@ -95,6 +99,8 @@ Card(
 }
 ```
 
+![Alert dialog](/academy/material/media/card_shape.png)
+
 ### Card with Background Color
   
 ```kotlin
@@ -107,6 +113,8 @@ Card(
     )
 }
 ```
+
+![Alert dialog](/academy/material/media/card_background.png)
 
 ### Card with Colored Content
   
@@ -122,6 +130,8 @@ Card(
 }
 ```
 
+![Alert dialog](/academy/material/media/card_colored_content.png)
+
 ### Card with Border
   
 ```kotlin
@@ -135,6 +145,8 @@ Card(
 }
 ```
 
+![Alert dialog](/academy/material/media/card_border.png)
+
 ### Card with Elevation
   
 ```kotlin
@@ -147,3 +159,5 @@ Card(
     )
 }
 ```
+
+![Alert dialog](/academy/material/media/card_elevation.png)

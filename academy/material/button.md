@@ -85,6 +85,8 @@ Button(onClick = {
 }
 ```
 
+![Alert dialog](/academy/material/media/button.png)
+
 ### Button with Shape
   
 ```kotlin
@@ -98,6 +100,8 @@ Button(onClick = {
 }
 ```
 
+![Alert dialog](/academy/material/media/button_shape.png)
+
 ### Button with Border
 
 ```kotlin
@@ -110,6 +114,8 @@ Button(onClick = {
     )
 }
 ```
+
+![Alert dialog](/academy/material/media/button_border.png)
 
 ### Disabled Button
 
@@ -126,3 +132,5 @@ Button(onClick = {
     )
 }
 ```
+
+![Alert dialog](/academy/material/media/button_disabled.png)

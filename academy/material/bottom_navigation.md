@@ -97,7 +97,7 @@ fun BottomNavigationItem(
 
 * **inactiveColor** – color to be used for inactive content (e.g unselected item)
 
-### Minimal Bottom App Bar
+### Minimal Bottom Navigation
   
 ```kotlin
 val selectedItem = state { 0 }
@@ -122,7 +122,9 @@ Column {
 }
 ```
 
-### Styled Bottom App Bar
+![Alert dialog](/academy/material/media/bottom_nav.png)
+
+### Bottom Navigation without Labels
   
 ```kotlin
 val selectedItem = state { 0 }
@@ -148,8 +150,9 @@ Column {
 }
 ```
 
+![Alert dialog](/academy/material/media/bottom_nav_labels.png)
 
-### Bottom App Bar with FAB
+###Styled Bottom Navigation
 
 ```kotlin
 val selectedItem = state { 0 }
@@ -175,3 +178,5 @@ Column {
     }
 }
 ```
+
+![Alert dialog](/academy/material/media/bottom_nav_styled.png)
