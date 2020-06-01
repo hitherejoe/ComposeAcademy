@@ -13,14 +13,14 @@ grid_navigation:
     - title: Tap
       excerpt: Detect single tap gestures performed on a composable
       cta: View
-      url: '/academy/gesture/tap'
+      url: '/academy/core/tap'
     - title: Double tap
       excerpt: Detect double tap gestures performed on a composable
       cta: View
-      url: '/academy/gesture/doubleTap'
+      url: '/academy/core/doubleTap'
     - title: Long press
       excerpt: Detect long press gestures performed on a composable
       cta: View
-      url: '/academy/gesture/longPress'
+      url: '/academy/core/longPress'
       
 ---
