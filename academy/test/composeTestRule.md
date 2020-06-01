@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: Compose Test Rule
-description: Used to animate between different states
+description:  Render composables on screen for testing
 
 # Micro navigation
 micro_nav: false
