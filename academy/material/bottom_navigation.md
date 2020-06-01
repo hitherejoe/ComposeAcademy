@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: Bottom Navigation
-description: Display navigation at the bottom of the screen
+description: Display navigation at the bottom of the screen. Used to navigate between different screens of an application.
 buttons:
   - icon: github
     content: View in Playground

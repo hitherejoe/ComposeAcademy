@@ -1,4 +1,5 @@
 ---
+
 # Page settings
 layout: homepage
 keywords:
@@ -9,7 +10,7 @@ description: Components from the Core package
 
 # Grid navigation
 grid_navigation:
-    - title: Single Value
+	- title: Single Value
       excerpt: Detecting gestures on composables
       cta: View
       url: '/academy/animation/singleValue'
