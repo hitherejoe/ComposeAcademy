@@ -26,9 +26,5 @@ grid_navigation:
       excerpt: Actions to perform on composables
       cta: View
       url: '/academy/test/finders'
-    - title: Selectors
-      excerpt: Select composables
-      cta: View
-      url: '/academy/test/selectors'
       
 ---
