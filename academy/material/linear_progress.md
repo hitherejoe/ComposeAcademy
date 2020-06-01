@@ -41,15 +41,20 @@ fun LinearProgressIndicator(
 LinearProgressIndicator()
 ```
 
+![Circular Progress](/academy/material/media/linear_progress_one.png)
+
 ### Assigned Value Progress Indicator
   
 ```kotlin
 LinearProgressIndicator(progress = 0.5f)
 ```
 
+![Circular Progress](/academy/material/media/linear_progress_one.png)
 
 ### Colored Progress Indicator
 
 ```kotlin
 LinearProgressIndicator(color = Color.Cyan)
 ```
+
+![Circular Progress](/academy/material/media/linear_progress_two.png)

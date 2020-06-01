@@ -44,7 +44,7 @@ fun CircularProgressIndicator(
 CircularProgressIndicator()
 ```
 
-![Alert dialog](/academy/material/media/progress_circular.png)
+![Circular Progress](/academy/material/media/progress_circular.png)
 
 ### Assigned Value Progress Indicator
   
@@ -52,7 +52,7 @@ CircularProgressIndicator()
 CircularProgressIndicator(progress = 0.5f)
 ```
 
-![Alert dialog](/academy/material/media/progress_circular_manual.png)
+![Manual Circular Progress](/academy/material/media/progress_circular_manual.png)
 
 ### Colored Progress Indicator
 
@@ -60,4 +60,4 @@ CircularProgressIndicator(progress = 0.5f)
 CircularProgressIndicator(color = Color.Cyan)
 ```
 
-![Alert dialog](/academy/material/media/progress_circular_colored.png)
+![Colored Circular Progerss](/academy/material/media/progress_circular_colored.png)
