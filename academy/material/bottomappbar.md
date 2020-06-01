@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: Bottom App Bar
-description: Display an app bar at the bottom of the screen
+description: Display an app bar at the bottom of the screen. Used as a container for parent-related content, such as screen titles, menu items or a floating action button
 buttons:
   - icon: github
     content: View in Playground

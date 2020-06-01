@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: Alert Dialog
-description: Display a pop-up alert dialog
+description: Display a pop-up alert dialog. Used to provide information to users, along with buttons to take action on the alerted situation.
 buttons:
   - icon: github
     content: View in Playground

@@ -6,8 +6,8 @@ keywords:
 comments: false
 
 # Hero section
-title: Alert Dialog
-description: Display a pop-up alert dialog
+title: Card
+description: Display content on a card item. Primarily used to, but not contrained to, contain individual content of item collections. 
 buttons:
   - icon: github
     content: View in Playground
