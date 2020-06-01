@@ -130,7 +130,7 @@ Card(
 }
 ```
 
-![Alert dialog](/academy/material/media/card_colored_content.png)
+![Card with colored content](/academy/material/media/card_colored_content.png)
 
 ### Card with Border
   

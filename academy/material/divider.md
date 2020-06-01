@@ -41,20 +41,35 @@ fun Divider(
 
 ## Examples
 
-### Minimal Button
+### Divider
+
+```kotlin
+Divider()
+```
+
+![Alert dialog](/academy/material/media/divider.png)
+
+### Colored Divider
   
 ```kotlin
 Divider(color = Color.Red)
 ```
 
-### Button with Shape
+![Alert dialog](/academy/material/media/divider_color.png)
+
+### Divider with thickness
   
 ```kotlin
 Divider(thickness = 12.dp)
 ```
 
-### Button with Border
+![Alert dialog](/academy/material/media/divider_thickness.png)
+
+### Divider with Indent
 
 ```kotlin
 Divider(startIndent = 12.dp)
 ```
+
+![Alert dialog](/academy/material/media/divider_indent.png)
+
