@@ -5,8 +5,8 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Assertions
-description: Functions used to perform assertions during tests
+title: Acyions
+description: Functions used to perform actions on components
 
 # Grid navigation
 grid_navigation:

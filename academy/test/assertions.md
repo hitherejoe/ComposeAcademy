@@ -6,7 +6,7 @@ keywords:
 
 # Hero section
 title: Assertions
-description: Functions used to perform assertions during tests
+description: Functions used to perform assertions on components
 
 # Grid navigation
 grid_navigation:
