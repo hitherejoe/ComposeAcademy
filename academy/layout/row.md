@@ -16,14 +16,6 @@ micro_nav: false
 
 ## Constructors
 
-When using the Row function there are four avialable properties that can be provided:
-
-* **modifier** – the modifier to be applied to the composable
-* **horizontalArrangement** – the arrangement to be applied on the horizontal axis
-* **verticalGravity** – the gravity to be applied on the vertical axis
-* **children** – the child composables to be displayed inside of the Column
-  * required
-
 ```kotlin
 @Composable
 fun Row(
@@ -33,6 +25,15 @@ fun Row(
     children: @Composable() RowScope.() -> Unit
 )
 ```
+
+* **modifier** – the modifier to be applied to the composable
+
+* **horizontalArrangement** – the arrangement to be applied on the horizontal axis
+
+* **verticalGravity** – the gravity to be applied on the vertical axis
+
+* **children** – the child composables to be displayed inside of the Column
+  * required
 
 ## Examples
 

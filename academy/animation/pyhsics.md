@@ -36,10 +36,11 @@ fun transition(fromState: T? = null, toState: T? = null, init: TransitionSpec<T>
 For this transiton, the physics animation builder will be used. This builder allows us to set the two properties: 
 
 * **stiffness** – the damping ratio of the spring used for the animation
+
 * **dampingRatio** – the stiffness of the spring used for the animation
 
 ```kotlin
-sizeState using physics<Float> {
+someState using physics<Float> {
     stiffness = 5f
     dampingRatio = 5f
 }

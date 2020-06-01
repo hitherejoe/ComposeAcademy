@@ -36,10 +36,11 @@ fun transition(fromState: T? = null, toState: T? = null, init: TransitionSpec<T>
 For this transiton, the repeatable animation builder will be used. This builder allows us to set the two properties: 
 
 * **iterations** – the number of iterations that should occur for the animation
+
 * **animation** – the animation to be used for the transition
 
 ```kotlin
-sizeState using repeatable<Float> {
+someState using repeatable<Float> {
     iterations = Infinite
     animation = tween {
         easing = LinearEasing

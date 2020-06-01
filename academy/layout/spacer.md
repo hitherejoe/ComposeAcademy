@@ -16,14 +16,10 @@ micro_nav: false
 
 ## Constructors
 
-The spacer comes with a single constructor that can be used to create a new instance of a Spacer. 
-
 ```kotlin
 @Composable
 fun Spacer(modifier: Modifier)
 ```
-
-There is a single available property that we can pass to this function:
 
 * **modifier** – the modifier(s) to be applied to the Spacer instance
   * required

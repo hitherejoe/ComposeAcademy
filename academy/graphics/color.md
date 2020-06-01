@@ -56,7 +56,7 @@ Color(
 )
 ```
 
-## Coor from RGBA values
+## Color from RGBA values
 
 ```kotlin
 Color(

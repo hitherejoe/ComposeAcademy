@@ -37,7 +37,7 @@ fun transition(fromState: T? = null, toState: T? = null, init: TransitionSpec<T>
 For this transiton, the physics animation builder will be used. This builder allows us to set pairs that consist of both the value for the animation and the timestamp at when that value should be reached.
 
 ```kotlin
-sizeState using keyframes<Float> {
+someState using keyframes<Float> {
     50f at 200
     60f at 2200
     175f at 2500
@@ -47,7 +47,7 @@ sizeState using keyframes<Float> {
 The physics builder extends from the DurationBasedAnimation builder, meaning that we can set additional properties on our animation. These two properties are the duration and delay.
 
 ```kotlin
-sizeState using keyframes<Float> {
+someState using keyframes<Float> {
     50f at 200
     60f at 2200
     175f at 2500

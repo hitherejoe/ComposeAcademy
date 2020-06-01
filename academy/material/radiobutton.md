@@ -32,9 +32,11 @@ fun RadioButton(
 
 * **selected** – whether or not the button is currently selected
   * required
+
 * **onSelect** – a callback that will receive change events for when the  
 selected state of the component changes changes
   * required
+
 * **color** – the color to be used for the radio button. If not provided,  
 then the secondary color from the application theme will be applied
 

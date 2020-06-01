@@ -16,14 +16,6 @@ micro_nav: false
 
 ## Constructors
 
-When using the Column function there are four avialable properties that can be provided:
-
-* **modifier** – the modifier to be applied to the composable
-* **verticalArrangement** – the arrangement to be applied on the vertical axis
-* **horizontalGravity** – the gravity to be applied on the horizontal axis
-* **children** – the child composables to be displayed inside of the Column
-  * required
-
 ```kotlin
 @Composable
 fun Column(
@@ -33,6 +25,15 @@ fun Column(
     children: @Composable() ColumnScope.() -> Unit
 )
 ```
+
+* **modifier** – the modifier to be applied to the composable
+
+* **verticalArrangement** – the arrangement to be applied on the vertical axis
+
+* **horizontalGravity** – the gravity to be applied on the horizontal axis
+
+* **children** – the child composables to be displayed inside of the Column
+  * required
 
 ## Examples
 

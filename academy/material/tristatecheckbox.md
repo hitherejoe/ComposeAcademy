@@ -25,12 +25,16 @@ fun TriStateCheckbox(
 ```
 
 * **state** – whether or not the checkbox is currently checked. 
-This is required
+  * This is required
+
 * **onClick** – a callback that will receive change events for when  
 the checkbox selected state changes. 
   * This is required
+
 * **enabled** – whether or not the component is currently enabled for interaction
+
 * **modifier** – the modifier(s) to be applied to the checkbox
+
 * **color** – the color to be used for the checkbox. If not provided,  
 then the secondary color from the application theme will be applied
 

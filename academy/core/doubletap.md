@@ -19,8 +19,14 @@ micro_nav: false
 
 ---
 
-Detecting a tap can be done by utilising the doubleTapGestureFilter  
-when providing modifiers for your desired view:
+## Constructors
+
+```kotlin
+doubleTapGestureFilter(onDoubleTap = { })
+```
+
+
+## Example
 
 ```kotlin
 Text(

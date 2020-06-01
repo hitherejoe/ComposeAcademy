@@ -19,11 +19,7 @@ micro_nav: false
 
 ---
 
-When creating a tween transition there are three properties which can be provided:
-
-* **fromState** – the state that is being animated from
-* **toState** – the state that is being animated to
-* **init** – the specification used to define our transition
+## Constructors
 
 ```kotlin
 fun transition(fromState: T? = null, toState: T? = null, init: TransitionSpec<T>.() -> Unit) {
@@ -31,10 +27,16 @@ fun transition(fromState: T? = null, toState: T? = null, init: TransitionSpec<T>
 }
 ```
 
+* **fromState** – the state that is being animated from
+
+* **toState** – the state that is being animated to
+
+* **init** – the specification used to define our transition
+
 For this transiton, the tween animation builder will be used. This builder allows us to set the easing property - this is used to define the rate of change in which the values are animated.
 
 ```kotlin
-sizeState using tween<Float> {
+someState using tween<Float> {
     easing = FastOutLinearInEasing
 }
 ```
@@ -49,7 +51,7 @@ sizeState using tween<Float> {
 }
 ```
 
-## Example tween animation
+## Examples
 
 ```kotlin
 val sizeState = FloatPropKey()

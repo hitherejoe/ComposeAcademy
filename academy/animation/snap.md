@@ -19,15 +19,16 @@ micro_nav: false
 
 ---
 
-When creating a snap transition there are two properties which can be provided:
-
-* **fromToPairs** – the pairs of states used for the transition
-  * required
-* **nextState** – the next state which should be switched to once the animation has completed
+## Constructors
 
 ```kotlin
 fun snapTransition(vararg fromToPairs: Pair<T?, T?>, nextState: T? = null)
 ```
+
+* **fromToPairs** – the pairs of states used for the transition
+  * required
+  
+* **nextState** – the next state which should be switched to once the animation has completed
 
 ## Example snap animation
 
