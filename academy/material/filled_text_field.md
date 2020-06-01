@@ -21,9 +21,7 @@ micro_nav: false
 
 ## Constructors
 
-There are two constructors available for creating a Filled Text Field composable
-
-The first constructor takes a collection of properties as parameters, with the input content of the field being in the for of a TextFieldValue:
+### Text Field Value State
 
 ```kotlin
 @Composable
@@ -95,7 +93,7 @@ fun FilledTextField(
 
 * **shape** – shape to be used for the filled area of the composable
 
-The second constructor matches that of the first, with the TextFieldValue being switched out for a String representation:
+### String State
 
 ```kotlin
 @Composable

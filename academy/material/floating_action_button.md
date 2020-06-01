@@ -21,8 +21,6 @@ micro_nav: false
 
 ## Constructors
 
-There is a single constructor available to create a Bottom App Bar composable
-
 ```kotlin
 @Composable
 fun FloatingActionButton(

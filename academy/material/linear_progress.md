@@ -21,8 +21,6 @@ micro_nav: false
 
 ## Constructors
 
-There is a single constructor available to create a linear progress composable
-
 ```kotlin
 @Composable
 fun LinearProgressIndicator(

@@ -21,9 +21,6 @@ micro_nav: false
 
 ## Constructor
 
-There is a single constructor available for creating a new reference  
-to a Radio Button component:
-
 ```kotlin
 @Composable
 fun RadioButton(

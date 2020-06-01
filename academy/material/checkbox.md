@@ -16,9 +16,6 @@ micro_nav: false
 
 ## Constructors
 
-There is a single constructor available for creating a  
-new reference to a Checkbox component:
-
 ```kotlin
 @Composable
 fun Checkbox(

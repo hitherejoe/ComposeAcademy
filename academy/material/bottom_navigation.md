@@ -21,8 +21,6 @@ micro_nav: false
 
 ## Constructors
 
-There is a single conctructor available to create a Bottom Navigation composable
-
 ```kotlin
 @Composable
 fun BottomNavigation(

@@ -13,9 +13,6 @@ micro_nav: false
 
 ## Constructor
 
-There is a single constructor available for creating a  
-new reference to a Tri-state Checkbox:
-
 ```kotlin
 @Composable
 fun TriStateCheckbox(

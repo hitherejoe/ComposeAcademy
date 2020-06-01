@@ -21,9 +21,7 @@ micro_nav: false
 
 ## Constructors
 
-There is a two conctructors available to create an Alert Dialog composable.
-
-The first defines a clear contract for using a single confirm and dismiss button:
+### Defined content
 
 ```kotlin
 @Composable
@@ -55,7 +53,7 @@ fun AlertDialog(
 
 * **shape** – the font style to be applied
 
-The second constructor takes a buttons parameter which gives you finer control over the buttons and their display within the alert dialog:
+### Composable content
 
 ```kotlin
 @Composable

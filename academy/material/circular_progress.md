@@ -21,8 +21,6 @@ micro_nav: false
 
 ## Constructors
 
-There is a single conctructor available to create a circular progress composable
-
 ```kotlin
 @Composable
 fun CircularProgressIndicator(

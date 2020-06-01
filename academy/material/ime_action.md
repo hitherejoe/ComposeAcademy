@@ -19,7 +19,7 @@ micro_nav: false
 
 ---
 
-The Keyboard Type is used by the TextField component to depict what is to be displayed within the software keyboard.
+The ime action is used by the TextField component to depict what action is to be displayed within the software keyboard.
 
 ```kotlin
 Unspecified,
