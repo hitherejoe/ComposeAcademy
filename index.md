@@ -29,7 +29,7 @@ author:
 # Grid navigation
 grid_navigation:
     - title: Animation
-      excerpt: Animate your composables between different states
+      excerpt: Animate composables between different states
       cta: View
       url: '/academy/animation/animation'
     - title: Core

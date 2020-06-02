@@ -65,6 +65,8 @@ Column(horizontalGravity = Alignment.CenterHorizontally) {
 }
 ```
 
+![Slider](/academy/material/media/slider.png)
+
 ### Ranged slider
   
 ```kotlin
@@ -97,6 +99,8 @@ Column(horizontalGravity = Alignment.CenterHorizontally) {
 }
 ```
 
+![Slider](/academy/material/media/slider_stepped.png)
+
 ### Colored slider
 
 ```kotlin
@@ -112,6 +116,8 @@ Column(horizontalGravity = Alignment.CenterHorizontally) {
     )
 }
 ```
+
+![Slider](/academy/material/media/slider_colored.png)
 
 ### Slider with listener
 

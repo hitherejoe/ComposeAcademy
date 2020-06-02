@@ -41,11 +41,11 @@ grid_navigation:
     - title: Filled Text Field
       excerpt: Display a text field for textual input with a filled background
       cta: View
-      url: '/academy/material/filledTextField'
+      url: '/academy/material/filled_text_field'
     - title: Floating Action Button
       excerpt: Display a button in the form of a Floating Action Button
       cta: View
-      url: '/academy/material/floatingActionButton'
+      url: '/academy/material/floating_action_button'
     - title: Icon Button
       excerpt: Display a button with an icon for the content
       cta: View

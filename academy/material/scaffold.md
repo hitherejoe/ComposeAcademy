@@ -77,6 +77,8 @@ Scaffold(floatingActionButton = {
     })
 ```
 
+![Scaffold](/academy/material/media/scaffold_fab.png)
+
 ### Scaffold with docked Floating Action Button
   
 ```kotlin
@@ -107,6 +109,8 @@ Scaffold(floatingActionButton = {
     })
 ```
 
+![Scaffold](/academy/material/media/scaffold_docked_fab.png)
+
 ### Scaffold with Top App Bar
 
 ```kotlin
@@ -125,6 +129,8 @@ Scaffold(topAppBar = {
     bodyContent()
 })
 ```
+
+![Scaffold](/academy/material/media/scaffold_top_app_bar.png)
 
 ### Scaffold with Drawer
 
@@ -159,3 +165,5 @@ Scaffold(
     bodyContent()
 })
 ```
+
+![Scaffold](/academy/material/media/scaffold_navigation.png)

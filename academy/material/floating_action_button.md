@@ -62,6 +62,8 @@ FloatingActionButton(onClick = {
 }
 ```
 
+![Floating Action Button](/academy/material/media/fab.png)
+
 ### Colored Floating Action Button
   
 ```kotlin
@@ -76,6 +78,8 @@ FloatingActionButton(
 }
 ```
 
+![Floating Action Button](/academy/material/media/fab_colored.png)
+
 ### Elevated Floating Action Button
 
 ```kotlin
@@ -89,6 +93,8 @@ FloatingActionButton(
 }
 ```
 
+![Floating Action Button](/academy/material/media/fab_elevated.png)
+
 ### Shape Floating Action Button
 
 ```kotlin
@@ -101,3 +107,5 @@ FloatingActionButton(
     Icon(asset = Icons.Filled.Star)
 }
 ```
+
+![Floating Action Button](/academy/material/media/fab_shape.png)

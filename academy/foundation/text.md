@@ -44,19 +44,33 @@ fun Text(
 
 * **text** – the text to be displayed
   * required
+
 * **modifier** – the modifier to be applied to the composable
+
 * **color** – the Color to be used for the text
+
 * **fontSize** – the font size to be applued
+
 * **fontStyle** – the font style to be applied
+
 * **fontFamily** – the font family to be applied
+
 * **letterSpacing** – the spacing to be applied between letters
+
 * **textDecoration** – the decoration to be applied to the text
+
 * **textAlign** – the alignment to be applied to the text
+
 * **lineHeight** – the line height to be applied
+
 * **overflow** – the method used for handling text overflow
+
 * **softWrap** – whether or not text should be soft wrapped
+
 * **maxLines** – the maximum number of lines allowed for text
+
 * **onTextLayout** – callback to be triggered when text layout has completed
+
 * **style** – the style to be applied to the text
 
 ## Examples

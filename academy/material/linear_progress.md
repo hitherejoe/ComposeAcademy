@@ -41,7 +41,7 @@ fun LinearProgressIndicator(
 LinearProgressIndicator()
 ```
 
-![Circular Progress](/academy/material/media/linear_progress_one.png)
+![Linear Progress](/academy/material/media/linear_progress_one.png)
 
 ### Assigned Value Progress Indicator
   
@@ -49,7 +49,7 @@ LinearProgressIndicator()
 LinearProgressIndicator(progress = 0.5f)
 ```
 
-![Circular Progress](/academy/material/media/linear_progress_one.png)
+![Linear Progress](/academy/material/media/linear_progress_one.png)
 
 ### Colored Progress Indicator
 
@@ -57,4 +57,4 @@ LinearProgressIndicator(progress = 0.5f)
 LinearProgressIndicator(color = Color.Cyan)
 ```
 
-![Circular Progress](/academy/material/media/linear_progress_two.png)
+![Linear Progress](/academy/material/media/linear_progress_two.png)

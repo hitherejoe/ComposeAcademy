@@ -8,6 +8,11 @@ comments: false
 # Hero section
 title: Row
 description: A layout composable that lays out its child components in a horizontal format.
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/layout/row.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false

@@ -3,8 +3,15 @@
 layout: default
 keywords:
 comments: false
+
+# Hero section
 title: Tri-state Checkbox
-description: 
+description: Used for a toggleable state in the form of a check mark, with the addition of an intermediate checked state
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/material/triStateCheckbox.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false
