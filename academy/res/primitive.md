@@ -8,6 +8,11 @@ comments: false
 # Hero section
 title: Strings
 description: Used to access primitive values from application resources. Currently supports integers, booleans and dimension values
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/resource/primitiveResource.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false

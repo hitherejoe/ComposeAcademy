@@ -8,6 +8,11 @@ comments: false
 # Hero section
 title: Drawables
 description: Used to access drawables from an applications resources
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/resource/drawableResource.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false
