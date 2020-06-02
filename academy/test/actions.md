@@ -5,7 +5,7 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Acyions
+title: Actions
 description: Functions used to perform actions on components
 
 # Grid navigation
