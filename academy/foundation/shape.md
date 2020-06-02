@@ -19,10 +19,6 @@ micro_nav: false
 
 ---
 
-## Cut Corner Shape
-
-A cut corner shape cuts the corners based on the provided values. A CutCornerShape can be created by using on of the provided approaches defined below. 
-
 ### Corners with the same dimension
 
 ```kotlin
@@ -55,7 +51,7 @@ Box(
 )
 ```
 
-![Border](/academy/foundation/media/cut_corner_shape.png)
+![Cut Corner Shape](/academy/foundation/media/cut_corner_shape.png)
 
 ### Corners with different dimensions
 
@@ -97,7 +93,7 @@ Box(
 )
 ```
 
-![Border](/academy/foundation/media/cut_corner_shape_dimensions.png)
+![Cut Corner Shape](/academy/foundation/media/cut_corner_shape_dimensions.png)
 
 ## Rounded Corner Shape
 
@@ -135,7 +131,7 @@ Box(
 )
 ```
 
-![Border](/academy/foundation/media/rounded_corner_shape.png)
+![Rounded Corner Shape](/academy/foundation/media/rounded_corner_shape.png)
 
 ### Corners with different dimensions
 
@@ -177,6 +173,6 @@ Box(
 )
 ```
 
-![Border](/academy/foundation/media/rounded_corner_shape_dimensions.png)
+![Rounded Corner Shape](/academy/foundation/media/rounded_corner_shape_dimensions.png)
 
 

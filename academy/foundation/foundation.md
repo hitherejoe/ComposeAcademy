@@ -26,5 +26,9 @@ grid_navigation:
       excerpt: Create componenets composed of textual content
       cta: View
       url: '/academy/foundation/text'
+    - title: Text Style
+      excerpt: Apply styling to Text composables
+      cta: View
+      url: '/academy/foundation/text_style'
       
 ---

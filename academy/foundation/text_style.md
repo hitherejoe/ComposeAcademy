@@ -46,22 +46,40 @@ data class TextStyle(
 ```
 
 * **color** – the Color to be used for the text
+
 * **fontSize** – the font size to be applied
+
 * **fontWeight** – the weight to be applied to the font
+
 * **fontStyle** – the font style to be applied
-* **fontSynthesis** – declares whether font weight shuold be synthesied when not found for the requested weight in the current font family
+
+* **fontSynthesis** – declares whether font weight shuold be synthesied when not found for the requested weight in the 
+current font family
+
 * **fontFamily** – the font family to be applied
+
 * **fontFeatureSettings** -
+
 * **letterSpacing** – the spacing to be applied between letters
+
 * **baselineShift** – how much the text is shifted up from the current baseline
+
 * **textGeometricTransform** - geometric transofmration applied to the text
+
 * **localeList** – locale list to select locale specific glyphs from
+
 * **background** – background color to use for the composable
+
 * **textDecoration** – decorations to be painted onto the text
+
 * **shadow** – shadow to be applied to the text
+
 * **textAlign** – the alignment to be applied to the text
+
 * **textDirectionAlgorithm** – the algorithm to resolve the final text and paragraph direction
+
 * **lineHeight** – line height applied to the text paragraph
+
 * **textIndent** - indentation to be applied to the text paragraph
 
 ## Examples
