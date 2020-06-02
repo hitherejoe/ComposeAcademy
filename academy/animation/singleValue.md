@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Single Value
-description: Animate a single value
+description: Animate between single values
 
 # Grid navigation
 grid_navigation:

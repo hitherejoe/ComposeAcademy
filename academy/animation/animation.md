@@ -5,8 +5,13 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Core
-description: Components from the Core package
+title: Animation
+description: Animate composables between different states
+buttons:
+  - icon: github
+    content: View in playground
+    url: 'https://github.com/hitherejoe/ComposeAcademy-Playground/tree/master/app/src/main/java/co/joebirch/composeplayground/animation'
+    external_url: true
 
 # Grid navigation
 grid_navigation:

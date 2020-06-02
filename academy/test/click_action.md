@@ -7,7 +7,7 @@ comments: false
 
 # Hero section
 title: Click Action
-description: Assert whether or not a composable has a click action
+description: Perform a click on a component
 
 # Micro navigation
 micro_nav: false
