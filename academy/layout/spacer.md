@@ -8,6 +8,11 @@ comments: false
 # Hero section
 title: Spacer
 description: A layout composable sized via its modifiers, creating a visual space between any surrounding components
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/layout/spacer.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false

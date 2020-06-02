@@ -8,6 +8,11 @@ comments: false
 # Hero section
 title: Column
 description: A layout composable that lays out its child components in a vertical format.
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/layout/column.kt"
+    external_url: true
 
 # Micro navigation
 micro_nav: false

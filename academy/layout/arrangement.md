@@ -8,6 +8,11 @@ comments: false
 # Hero section
 title: Arrangement
 description: Declare how the children should be laid out within their parent containers
+buttons:
+  - icon: github
+    content: View in Playground
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/layout"
+    external_url: true
 
 # Micro navigation
 micro_nav: false
