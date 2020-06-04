@@ -25,7 +25,7 @@ If you want to make a one-off contribution, please do so to one of the following
 
 **Sponsers**
 
-  ♥️ [@AndreaGriffiths11](https://github.com/AndreaGriffiths11) - Monthly donation
+  ♥️ [@AndreaGriffiths11](https://github.com/AndreaGriffiths11) - Monthly donation   
   🐶 [@ataulm](https://github.com/ataulm) - 4 items donated to Raystede
 
 ## Coming soon - the book and tutorial videos 📰
