@@ -23,6 +23,10 @@ If you want to make a one-off contribution, please do so to one of the following
 - Give a [one-off donation](https://www.seashepherd.org.uk/support-us/donate-monthly.html) to Sea Shepherd
 - Buy some merchandise from Sea Shepherd ([UK](https://seashepherduktrading.org/), [US](https://shop.seashepherd.org/))
 
+**Sponsers**
+
+  ♥️ [@AndreaGriffiths11](https://github.com/AndreaGriffiths11) - Monthly donation
+
 ## Coming soon - the book and tutorial videos 📰
 
 I'm currently writing a book on jetpack compose, based off of compose academy but the writings will be much more in depth. Once the APIs for compose are stable (and close to final), I will be creating a video course too. The best way to be aware of when these are available is to [sign-up to my newsletter](https://mailchi.mp/648900712412/signup_exploring_mobile_development).
