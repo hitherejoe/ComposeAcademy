@@ -27,6 +27,7 @@ If you want to make a one-off contribution, please do so to one of the following
 
   ♥️ [@AndreaGriffiths11](https://github.com/AndreaGriffiths11) - Monthly donation   
   🐶 [@ataulm](https://github.com/ataulm) - 4 items donated to Raystede
+  🐶 [@hackertronix](https://github.com/hackertronix) - Dog treats for Raystede
 
 ## Coming soon - the book and tutorial videos 📰
 
