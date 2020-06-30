@@ -25,8 +25,8 @@ micro_nav: false
 @Composable
 fun Scaffold(
     scaffoldState: ScaffoldState = remember { ScaffoldState() },
-    topAppBar: @Composable (() -> Unit)? = null,
-    bottomAppBar: @Composable ((FabConfiguration?) -> Unit)? = null,
+    topBar: @Composable (() -> Unit)? = null,
+    bottomBar: @Composable ((FabConfiguration?) -> Unit)? = null,
     floatingActionButton: @Composable (() -> Unit)? = null,
     floatingActionButtonPosition: FabPosition = FabPosition.End,
     drawerContent: @Composable (() -> Unit)? = null,
@@ -36,13 +36,15 @@ fun Scaffold(
 
 * **scaffoldState** – current state of the scaffold (e.g drawer opened state)
 
-* **topAppBar** – the top app bar to be displayed at the top of the scaffold
+* **topBar** – the top app bar to be displayed at the top of the scaffold
 
-* **bottomAppBar** – the bottom app bar to be displayed at the bottom of the scaffold
+* **bottomBar** – the bottom app bar to be displayed at the bottom of the scaffold
 
 * **floatingActionButton** – the floating action button to be displayed in the scaffold
 
 * **floatingActionButtonPosition** – the positioning of the floating action button
+
+* **isFloatingActionButtonDocked** - whether the FAB is docked or not
 
 * **drawerContent** – content to be displayed within the navigation drawer
 
@@ -85,8 +87,8 @@ Scaffold(floatingActionButton = {
 val state = state { 0 }
 
 val positions = listOf(
-    Scaffold.FabPosition.EndDocked,
-    Scaffold.FabPosition.CenterDocked
+    Scaffold.FabPosition.End,
+    Scaffold.FabPosition.Center
 )
 
 Scaffold(floatingActionButton = {
@@ -99,11 +101,12 @@ Scaffold(floatingActionButton = {
     }) {
         Icon(asset = Icons.Filled.Done)
     }
-}, bottomAppBar = {
+}, bottomBar = {
     BottomAppBar {
 
     }
 }, floatingActionButtonPosition = positions[state.value],
+isFloatingActionButtonDocked = true,
     bodyContent = {
         bodyContent()
     })
@@ -114,7 +117,7 @@ Scaffold(floatingActionButton = {
 ### Scaffold with Top App Bar
 
 ```kotlin
-Scaffold(topAppBar = {
+Scaffold(topBar = {
     TopAppBar(
         title = {
             Text(text = "Jetpack Compose")
@@ -138,7 +141,7 @@ Scaffold(topAppBar = {
 val scaffoldState = remember { ScaffoldState() }
 Scaffold(
     scaffoldState = scaffoldState,
-    topAppBar = {
+    topBar = {
         TopAppBar(
             title = {
                 Text(text = "Jetpack Compose")

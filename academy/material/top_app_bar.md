@@ -122,12 +122,9 @@ TopAppBar(
         Text(text = "Jetpack Compose")
     },
     actions = {
-        Clickable(onClick = {
-
-        }, modifier = Modifier.ripple()) {
-            Text(text = "Save", modifier = Modifier.padding(16.dp),
-                color = Color.White)
-        }
+        Text(text = "Save", modifier = Modifier.padding(16.dp).clickable(onClick = {
+            
+        }, color = Color.White)
     }
 )
 ```

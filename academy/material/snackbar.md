@@ -59,18 +59,16 @@ Snackbar(
 Snackbar(
     text = { Text(text = "This is a snackbar!") },
     action = {
-        Clickable(onClick = {
-            // Handle action
-        }) {
-            Text(
-                text = "Undo",
-                modifier = Modifier.padding(16.dp),
-                style = TextStyle(
-                    fontWeight = FontWeight.Bold,
-                    color = snackbarPrimaryColorFor(MaterialTheme.colors)
-                )
+        Text(
+            text = "Undo",
+            modifier = Modifier.padding(16.dp).clickable(onClick = {
+                // Handle action
+            }),
+            style = TextStyle(
+                fontWeight = FontWeight.Bold,
+                color = snackbarPrimaryColorFor(MaterialTheme.colors)
             )
-        }
+        )
     }
 )
 ```
@@ -84,18 +82,16 @@ Snackbar(
     text = { Text(text = "This is a snackbar with a lot of text, 
         that way it makes sense to use the new line!") },
     action = {
-        Clickable(onClick = {
-            // Handle action
-        }) {
-            Text(
-                text = "Undo",
-                modifier = Modifier.padding(16.dp),
-                style = TextStyle(
-                    fontWeight = FontWeight.Bold,
-                    color = snackbarPrimaryColorFor(MaterialTheme.colors)
-                )
+        Text(
+            text = "Undo",
+            modifier = Modifier.padding(16.dp).clickable(onClick = {
+                // Handle action
+            }),
+            style = TextStyle(
+                fontWeight = FontWeight.Bold,
+                color = snackbarPrimaryColorFor(MaterialTheme.colors)
             )
-        }
+        )
     },
     actionOnNewLine = true
 )

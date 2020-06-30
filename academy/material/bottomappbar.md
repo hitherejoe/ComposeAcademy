@@ -81,7 +81,7 @@ BottomAppBar(
 
 ```kotlin
 Scaffold(
-    bottomAppBar = {
+    bottomBar = {
         BottomAppBar(
             contentColor = Color.White,
             backgroundColor = Color.Black,
@@ -97,7 +97,7 @@ Scaffold(
             Icon(asset = Icons.Default.Done)
         }
     },
-    floatingActionButtonPosition = Scaffold.FabPosition.CenterDocked,
+    floatingActionButtonPosition = Scaffold.FabPosition.Center,
     bodyContent = {
         bodyContent()
     })

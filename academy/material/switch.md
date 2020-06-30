@@ -81,7 +81,6 @@ Switch(
 ### Handled checked state
 
 ```kotlin
-@Model
 class FormState(var optionChecked: Boolean = false)
 
 @Composable
