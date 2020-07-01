@@ -41,11 +41,11 @@ fun animate(
 
 ```kotlin
 val enabled = state { true }
-Clickable({ enabled.value = !enabled.value }) {
-    Stack {
-        Box(Modifier.fillMaxSize(), backgroundColor =
-        animate(if (enabled.value) Color.Green else Color.Red))
-        Text(text = "Click me to change color!")
-    }
+Stack {
+    Box(Modifier.fillMaxSize().clickable(onClick = {
+            enabled.value = !enabled.value
+    }, backgroundColor =
+    animate(if (enabled.value) Color.Green else Color.Red))
+    Text(text = "Click me to change color!")
 }
 ```

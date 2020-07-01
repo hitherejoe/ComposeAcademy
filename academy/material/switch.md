@@ -31,14 +31,14 @@ fun Switch(
 )
 ```
 
-* **checkedt** – whether or not the switch is currently checked. This is required
+* **checked** – whether or not the switch is currently checked. This is required
 
 * **onCheckedChanget** – a callback that will receive change events for  
 when the selected state of the component changes  
 changes.    
   * This is required
 
-* **enabledt** – declares whether the component is currently enabled
+* **enabled** – declares whether the component is currently enabled
 
 * **color** – the color to be used for the component. If not provided,  
 then the secondary color from the application theme will be applied
@@ -54,17 +54,12 @@ Switch(
 )
 ```
 
-![Checked switch](/academy/material/media/switch_checked.png)
-
-
 ```kotlin
 Switch(
     checked = false,
     onCheckedChange = { }
 )
 ```
-
-![Unchecked switch](/academy/material/media/switch_unchecked.png)
 
 ### Colored switch
 
@@ -76,19 +71,16 @@ Switch(
 )
 ```
 
-![Colored switch](/academy/material/media/switch_colored.png)
-
 ### Handled checked state
 
 ```kotlin
-class FormState(var optionChecked: Boolean = false)
-
 @Composable
-fun SwitchComponent(formState: FormState) {
+fun SwitchComponent() {
+    val isChecked = state { false }
     Switch(
-        checked = formState.optionChecked,
+        checked = isChecked.value,
         onCheckedChange = { checked ->
-            formState.optionChecked = checked
+            isChecked.value = checked
         }
     )
 }

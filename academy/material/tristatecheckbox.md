@@ -66,8 +66,6 @@ TriStateCheckbox(
 )
 ```
 
-![Indeterminate checkbox](/academy/material/media/tristate_checkbox_indeterminate.png)
-
 ```kotlin
 TriStateCheckbox(
     state = ToggleableState.On,
@@ -75,16 +73,12 @@ TriStateCheckbox(
 )
 ```
 
-![Checked checbox](/academy/material/media/tristate_checkbox_on.png)
-
 ```kotlin
 TriStateCheckbox(
     state = ToggleableState.Off,
     onClick = { }
 )
 ```
-
-![Unchecked checkbox](/academy/material/media/tristate_checkbox_off.png)
 
 ### Colored checkbox
 
@@ -95,26 +89,21 @@ TriStateCheckbox(
 )
 ```
 
-![Colored checkbox](/academy/material/media/tristate_checkbox_colored.png)
-
 ### Handling check state
 
 ```kotlin
-@Model
-class TriStateFormState(var optionChecked: ToggleableState = 
-    ToggleableState.Indeterminate)
-
 @Composable
 fun TriStateCheckboxComponent(formState: TriStateFormState) {
+    val toggleState = state { ToggleableState.Indeterminate }
     TriStateCheckbox(
-        state = formState.optionChecked,
+        state = toggleState.value,
         onClick = {
-            when (formState.optionChecked) {
-                ToggleableState.Off -> formState.optionChecked = 
+            when (toggleState.value) {
+                ToggleableState.Off -> toggleState.value = 
                     ToggleableState.Indeterminate
-                ToggleableState.On -> formState.optionChecked = 
+                ToggleableState.On -> toggleState.value = 
                     ToggleableState.Off
-                ToggleableState.Indeterminate -> formState.optionChecked = 
+                ToggleableState.Indeterminate -> toggleState.value = 
                     ToggleableState.On
             }
         }

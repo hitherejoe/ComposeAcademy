@@ -40,14 +40,11 @@ val strings = listOf("This the first text", "This is the second text")
 var currentString by state { strings[0] }
 
 Column(modifier = Modifier.fillMaxWidth()) {
-    Clickable(onClick = {
-        currentString = if (currentString == strings[0])
-            strings[1] else strings[0]
-    }) {
-        Crossfade(current = currentString) { color ->
-            Text(color, modifier = Modifier.fillMaxWidth(),
-                style = TextStyle(textAlign = TextAlign.Center))
-        }
+    Crossfade(current = currentString) { color ->
+        Text(color, modifier = Modifier.fillMaxWidth().clickable(onClick = {
+            currentString = if (currentString == strings[0]) strings[1] else strings[0]
+        }),
+        style = TextStyle(textAlign = TextAlign.Center))
     }
 }
 ```

@@ -41,12 +41,12 @@ fun animate(
 
 ```kotlin
 val enabled = state { true }
-Clickable({ enabled.value = !enabled.value }) {
-    Stack(modifier = Modifier.padding(
-      animate(if (enabled.value) 0f else 100f).dp)
-    ) {
-        Box(Modifier.fillMaxSize(), backgroundColor = Color.Green)
-        Text(text = "Click me to change padding!")
-    }
+Stack(modifier = Modifier.padding(
+  animate(if (enabled.value) 0f else 100f).dp)
+) {
+    Box(Modifier.fillMaxSize().clickable(onClick = {
+       enabled.value = !enabled.value
+    }), backgroundColor = Color.Green)
+    Text(text = "Click me to change padding!")
 }
 ```
