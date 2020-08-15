@@ -81,33 +81,3 @@ data class PopupProperties(
     val onDismissRequest: (() -> Unit)? = null
 )
 ```
-
-### Creating a dropdown popup
-
-The Dropdown Popup can be used when we wish to offset the popup to be displayed  
-in a dropdown format. The Dropdown popup provides several additional properties  
-that allow us to acheive this when compared with the standard Popup:
-
-* **dropdownAlignment** - the alignment of the popup composable within its container
-
-* **offset** - the offset to be applied to the popup
-
-* **popupProperties** - the additional properties to be applied to the popup
-
-* **children** - the child composables to be displayed within the popup
-
-```kotlin
-DropdownPopup(dropDownAlignment = DropDownAlignment.End) {
-    Stack {
-        Box(
-            Modifier.preferredSize(200.dp, 50.dp),
-            shape = RoundedCornerShape(16.dp),
-            backgroundColor = Color.Black
-        )
-        Text(
-            text = "Pop up!", modifier = Modifier.gravity(Alignment.Center),
-            color = Color.White
-        )
-    }
-}
-```

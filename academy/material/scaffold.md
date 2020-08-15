@@ -138,9 +138,9 @@ Scaffold(topBar = {
 ### Scaffold with Drawer
 
 ```kotlin
-val scaffoldState = remember { ScaffoldState() }
+val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
 Scaffold(
-    scaffoldState = scaffoldState,
+    scaffoldState = ScaffoldState(drawerState),
     topBar = {
         TopAppBar(
             title = {
@@ -148,7 +148,7 @@ Scaffold(
             },
             navigationIcon = {
                 IconButton(onClick = {
-                    scaffoldState.drawerState = DrawerState.Opened
+                    drawerState.open()
                 }) {
                     Icon(Icons.Filled.Menu)
                 }
@@ -159,7 +159,7 @@ Scaffold(
         horizontalGravity = Alignment.CenterHorizontally) {
         Spacer(modifier = Modifier.preferredHeight(24.dp))
         Button(onClick = {
-            scaffoldState.drawerState = DrawerState.Closed
+            drawerState.close()
         }) {
             Text(text = "Close Drawer")
         }

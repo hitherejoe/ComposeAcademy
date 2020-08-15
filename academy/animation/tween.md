@@ -75,13 +75,12 @@ val transition = transitionDefinition {
     }
 }
 
-Transition(
+val state = transition(
     definition = transition,
     toState = toState.value
-) { state ->
-    Canvas(modifier = Modifier.preferredSize(80.dp)) {
-        drawCircle(Color.Red, state[sizeState])
-    }
+)
+Canvas(modifier = Modifier.preferredSize(80.dp)) {
+    drawCircle(Color.Red, state[sizeState])
 }
 
 Button(onClick = {

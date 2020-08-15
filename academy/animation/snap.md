@@ -44,13 +44,12 @@ val transition = transitionDefinition {
     snapTransition("B" to "A")
 }
 
-Transition(
+val state = transition(
     definition = transition,
     toState = toState.value
-) { state ->
-    Canvas(modifier = Modifier.preferredSize(80.dp)) {
-        drawCircle(Color.Red, state[sizeState])
-    }
+)
+Canvas(modifier = Modifier.preferredSize(80.dp)) {
+    drawCircle(Color.Red, state[sizeState])
 }
 
 Button(onClick = {

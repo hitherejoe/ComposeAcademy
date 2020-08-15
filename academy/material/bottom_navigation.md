@@ -66,34 +66,34 @@ When it comes to creating a bottom navigation bar, we need to provide the items 
 @Composable
 fun BottomNavigationItem(
     icon: @Composable () -> Unit,
-    text: @Composable () -> Unit = emptyContent(),
+    label: @Composable () -> Unit = emptyContent(),
     selected: Boolean,
-    onSelected: () -> Unit,
+    onSelect: () -> Unit,
     modifier: Modifier = Modifier,
     alwaysShowLabels: Boolean = true,
-    activeColor: Color = contentColor(),
-    inactiveColor: Color = EmphasisAmbient.current.medium.applyEmphasis(activeColor)
+    selectedContentColor: Color = contentColor(),
+    unselectedContentColor: Color = EmphasisAmbient.current.medium.applyEmphasis(selectedContentColor)
 )
 ```
 
 * **icon** – the icon to be displayed for the item
 
-* **text** – the text to be displayed for the item
+* **label** – the text to be displayed for the item
   * required
 
 * **selected** – current selection state for the item
   * required
 
-* **onSelected** – callback triggered when the item becomes selected
+* **onSelect** – callback triggered when the item becomes selected
   * required
 
 * **modifier** – modifier to be applied to the navigation item
 
 * **alwaysShowLabels** – whether or not labels should always be shown for the item
 
-* **activeColor** – color to be used for active content (e.g selected item)
+* **selectedContentColor** – color to be used for active content (e.g selected item)
 
-* **inactiveColor** – color to be used for inactive content (e.g unselected item)
+* **unselectedContentColor** – color to be used for inactive content (e.g unselected item)
 
 ### Minimal Bottom Navigation
   
@@ -111,9 +111,9 @@ Column {
         items.forEachIndexed { index, item ->
             BottomNavigationItem(
                 icon = { Icon(item.icon) },
-                text = { Text(text = item.label) },
+                label = { Text(text = item.label) },
                 selected = selectedItem.value == index,
-                onSelected = { selectedItem.value = index }
+                onSelect = { selectedItem.value = index }
             )
         }
     }
@@ -138,9 +138,9 @@ Column {
         items.forEachIndexed { index, item ->
             BottomNavigationItem(
                 icon = { Icon(item.icon) },
-                text = { Text(text = item.label) },
+                label = { Text(text = item.label) },
                 selected = selectedItem.value == index,
-                onSelected = { selectedItem.value = index },
+                onSelect = { selectedItem.value = index },
                 alwaysShowLabels = false
             )
         }
@@ -166,11 +166,11 @@ Column {
         items.forEachIndexed { index, item ->
             BottomNavigationItem(
                 icon = { Icon(item.icon) },
-                text = { Text(text = item.label) },
+                label = { Text(text = item.label) },
                 selected = selectedItem.value == index,
-                onSelected = { selectedItem.value = index },
-                activeColor = Color.Green,
-                inactiveColor = Color.Red
+                onSelect = { selectedItem.value = index },
+                selectedContentColor = Color.Green,
+                unselectedContentColor = Color.Red
             )
         }
     }
