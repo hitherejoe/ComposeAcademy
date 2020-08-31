@@ -11,7 +11,7 @@ description: Display an Application Bar with optional navigational components
 buttons:
   - icon: github
     content: View in Playground
-    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/material/slider.kt"
+    url: "https://github.com/hitherejoe/ComposeAcademy-Playground/blob/master/app/src/main/java/co/joebirch/composeplayground/material/topAppBar.kt"
     external_url: true
 
 # Micro navigation
